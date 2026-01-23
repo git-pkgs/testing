@@ -22,9 +22,12 @@ go run . https://github.com/foo/bar  # Test specific repo
 ### Aggregate results
 
 ```
-go run ./cmd/aggregate        # Table output
-go run ./cmd/aggregate -m     # Markdown output
+go run ./cmd/aggregate              # Table output
+go run ./cmd/aggregate -m           # Markdown output
+go run ./cmd/aggregate --csv=FILE   # CSV output
 ```
+
+Latest results: [results/results.csv](results/results.csv)
 
 ## What it tests
 
