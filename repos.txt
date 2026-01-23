@@ -1,30 +1,45 @@
 # Repos to test git-pkgs against
 # One URL per line, comments start with #
 
-# Small Ruby projects
-https://github.com/rubygems/rubygems.org
+# Ruby (gem)
 https://github.com/thoughtbot/paperclip
-
-# Medium npm projects
-https://github.com/lodash/lodash
-https://github.com/expressjs/express
-
-# Large projects with many dependencies
+https://github.com/rubygems/rubygems.org
 https://github.com/rails/rails
+
+# JavaScript (npm)
+https://github.com/expressjs/express
+https://github.com/lodash/lodash
 https://github.com/facebook/react
 
-# Go projects
-https://github.com/cli/cli
-https://github.com/junegunn/fzf
-
-# Python projects
-https://github.com/pallets/flask
+# Python (pypi)
 https://github.com/psf/requests
+https://github.com/pallets/flask
+https://github.com/encode/httpx
 
-# Rust projects
+# Go (golang)
+https://github.com/junegunn/fzf
+https://github.com/charmbracelet/bubbletea
+https://github.com/cli/cli
+
+# Rust (cargo)
 https://github.com/BurntSushi/ripgrep
 https://github.com/sharkdp/bat
+https://github.com/sharkdp/fd
 
-# Multi-ecosystem projects
+# Java (maven)
+https://github.com/google/gson
+https://github.com/square/retrofit
+
+# PHP (composer)
+https://github.com/guzzle/guzzle
+https://github.com/monolog/monolog
+
+# Elixir (hex)
+https://github.com/phoenixframework/phoenix
+
+# Swift (cocoapods/spm)
+https://github.com/Alamofire/Alamofire
+
+# Multi-ecosystem (large)
 https://github.com/vercel/next.js
 https://github.com/microsoft/vscode
