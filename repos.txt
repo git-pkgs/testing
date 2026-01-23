@@ -1,0 +1,30 @@
+# Repos to test git-pkgs against
+# One URL per line, comments start with #
+
+# Small Ruby projects
+https://github.com/rubygems/rubygems.org
+https://github.com/thoughtbot/paperclip
+
+# Medium npm projects
+https://github.com/lodash/lodash
+https://github.com/expressjs/express
+
+# Large projects with many dependencies
+https://github.com/rails/rails
+https://github.com/facebook/react
+
+# Go projects
+https://github.com/cli/cli
+https://github.com/junegunn/fzf
+
+# Python projects
+https://github.com/pallets/flask
+https://github.com/psf/requests
+
+# Rust projects
+https://github.com/BurntSushi/ripgrep
+https://github.com/sharkdp/bat
+
+# Multi-ecosystem projects
+https://github.com/vercel/next.js
+https://github.com/microsoft/vscode

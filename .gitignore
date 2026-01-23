@@ -1,0 +1,10 @@
+# Binaries
+/run_tests
+/aggregate
+
+# Cloned repos cache
+/repos/
+
+# Keep results/ tracked but allow ignoring large outputs if needed
+# Uncomment the next line to ignore all results
+# results/
