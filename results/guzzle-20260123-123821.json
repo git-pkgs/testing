@@ -1,0 +1,197 @@
+{
+  "repo": "https://github.com/guzzle/guzzle",
+  "name": "guzzle",
+  "tested_at": "2026-01-23T12:38:20Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 0.407962917,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 3693,
+    "branches": 13
+  },
+  "init": {
+    "elapsed_seconds": 0.017800167,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "7.10",
+    "ecosystems": [
+      "composer",
+      "docker",
+      "pypi"
+    ],
+    "last_analyzed_sha": "b51ac707cfa420b7bfd4e4d5e510ba8008e822b4",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/guzzle/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 3693,
+      "branches": 1,
+      "commits": 3693,
+      "dependency_changes": 283,
+      "dependency_snapshots": 54,
+      "manifests": 30,
+      "packages": 24,
+      "versions": 0
+    },
+    "schema_version": 6,
+    "size_bytes": 1835008
+  },
+  "manifests": 30,
+  "ecosystems": [
+    "composer",
+    "docker",
+    "pypi"
+  ],
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.025228666,
+      "success": true
+    },
+    "diff": {
+      "elapsed_seconds": 0.019452583,
+      "success": false
+    },
+    "history": {
+      "elapsed_seconds": 0.024119458,
+      "success": true,
+      "output_size": 150562
+    },
+    "licenses": {
+      "elapsed_seconds": 0.276967834,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.250456,
+      "success": true
+    },
+    "list": {
+      "elapsed_seconds": 0.018223625,
+      "success": true,
+      "output_size": 7991,
+      "dependency_count": 31
+    },
+    "log": {
+      "elapsed_seconds": 0.0183925,
+      "success": true,
+      "output_size": 24597
+    },
+    "outdated": {
+      "elapsed_seconds": 0.021606417,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.019410917,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.021677667,
+      "success": true
+    },
+    "stale": {
+      "elapsed_seconds": 0.017662959,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.017853583,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "7.10",
+    "changes_by_type": {
+      "added": 84,
+      "modified": 137,
+      "removed": 62
+    },
+    "commits_analyzed": 3693,
+    "commits_with_changes": 127,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 167,
+        "name": "Michael Dowling"
+      },
+      {
+        "count": 71,
+        "name": "Graham Campbell"
+      },
+      {
+        "count": 12,
+        "name": "Tobias Nyholm"
+      },
+      {
+        "count": 9,
+        "name": "Gordon Franke"
+      },
+      {
+        "count": 5,
+        "name": "Tobias Schultze"
+      },
+      {
+        "count": 3,
+        "name": "Mark Sagi-Kazar"
+      },
+      {
+        "count": 2,
+        "name": "Hynek Schlawack"
+      },
+      {
+        "count": 2,
+        "name": "Gabriel Caruso"
+      },
+      {
+        "count": 1,
+        "name": "erikn69"
+      },
+      {
+        "count": 1,
+        "name": "Pavel Batanov"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 28,
+        "name": "guzzle/http"
+      },
+      {
+        "count": 19,
+        "name": "symfony/event-dispatcher"
+      },
+      {
+        "count": 18,
+        "name": "guzzlehttp/psr7"
+      },
+      {
+        "count": 17,
+        "name": "phpunit/phpunit"
+      },
+      {
+        "count": 14,
+        "name": "guzzle/common"
+      },
+      {
+        "count": 13,
+        "name": "guzzlehttp/streams"
+      },
+      {
+        "count": 12,
+        "name": "psr/log"
+      },
+      {
+        "count": 12,
+        "name": "guzzlehttp/promises"
+      },
+      {
+        "count": 9,
+        "name": "friendsofphp/php-cs-fixer"
+      },
+      {
+        "count": 8,
+        "name": "psalm/phar"
+      }
+    ],
+    "total_changes": 283
+  }
+}

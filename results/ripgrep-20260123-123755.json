@@ -1,10 +1,10 @@
 {
   "repo": "https://github.com/BurntSushi/ripgrep",
   "name": "ripgrep",
-  "tested_at": "2026-01-23T10:30:35Z",
+  "tested_at": "2026-01-23T12:37:53Z",
   "git_pkgs_version": "",
   "clone": {
-    "elapsed_seconds": 0.905969333,
+    "elapsed_seconds": 0.411454958,
     "success": true
   },
   "repo_stats": {
@@ -12,7 +12,7 @@
     "branches": 16
   },
   "init": {
-    "elapsed_seconds": 0.645366041,
+    "elapsed_seconds": 0.018238833,
     "success": true
   },
   "db_info": {
@@ -30,29 +30,70 @@
       "commits": 2206,
       "dependency_changes": 1891,
       "dependency_snapshots": 522,
-      "manifests": 32
+      "manifests": 32,
+      "packages": 60,
+      "versions": 0
     },
     "schema_version": 6,
-    "size_bytes": 2269184
+    "size_bytes": 2281472
   },
+  "manifests": 32,
+  "ecosystems": [
+    "arch",
+    "cargo",
+    "docker"
+  ],
   "commands": {
     "blame": {
-      "elapsed_seconds": 0.023551375,
+      "elapsed_seconds": 0.031885292,
       "success": true
     },
+    "diff": {
+      "elapsed_seconds": 0.018164959,
+      "success": false
+    },
     "history": {
-      "elapsed_seconds": 0.03804325,
+      "elapsed_seconds": 0.049317417,
       "success": true,
       "output_size": 1236227
     },
+    "licenses": {
+      "elapsed_seconds": 0.157803417,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.133744375,
+      "success": true
+    },
     "list": {
-      "elapsed_seconds": 0.018819583,
+      "elapsed_seconds": 0.021012833,
       "success": true,
       "output_size": 51597,
       "dependency_count": 172
     },
+    "log": {
+      "elapsed_seconds": 0.020849541,
+      "success": true,
+      "output_size": 103806
+    },
+    "outdated": {
+      "elapsed_seconds": 1.1259125,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.022334458,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.02123475,
+      "success": true
+    },
     "stale": {
-      "elapsed_seconds": 0.017437917,
+      "elapsed_seconds": 0.020894875,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.021091,
       "success": true
     }
   },

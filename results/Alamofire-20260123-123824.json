@@ -1,0 +1,171 @@
+{
+  "repo": "https://github.com/Alamofire/Alamofire",
+  "name": "Alamofire",
+  "tested_at": "2026-01-23T12:38:23Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 0.411049167,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 1667,
+    "branches": 22
+  },
+  "init": {
+    "elapsed_seconds": 0.017299833,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "master",
+    "ecosystems": [
+      "gem"
+    ],
+    "last_analyzed_sha": "7be73f6c2b5cd90e40798b06ebd5da8f9f79cf88",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/Alamofire/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 1667,
+      "branches": 1,
+      "commits": 1667,
+      "dependency_changes": 418,
+      "dependency_snapshots": 57,
+      "manifests": 2,
+      "packages": 110,
+      "versions": 0
+    },
+    "schema_version": 6,
+    "size_bytes": 1163264
+  },
+  "manifests": 2,
+  "ecosystems": [
+    "gem"
+  ],
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.021348916,
+      "success": true
+    },
+    "diff": {
+      "elapsed_seconds": 0.016925125,
+      "success": false
+    },
+    "history": {
+      "elapsed_seconds": 0.03347025,
+      "success": true,
+      "output_size": 393588
+    },
+    "licenses": {
+      "elapsed_seconds": 0.0188915,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.017909042,
+      "success": true
+    },
+    "list": {
+      "elapsed_seconds": 0.018136917,
+      "success": true,
+      "output_size": 12997,
+      "dependency_count": 57
+    },
+    "log": {
+      "elapsed_seconds": 0.019369459,
+      "success": true,
+      "output_size": 111724
+    },
+    "outdated": {
+      "elapsed_seconds": 0.017872417,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.018970791,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.020476625,
+      "success": true
+    },
+    "stale": {
+      "elapsed_seconds": 0.022210958,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.017361042,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "master",
+    "changes_by_type": {
+      "added": 72,
+      "modified": 331,
+      "removed": 15
+    },
+    "commits_analyzed": 1667,
+    "commits_with_changes": 55,
+    "current_deps": 57,
+    "deps_by_ecosystem": {
+      "gem": 57
+    },
+    "top_authors": [
+      {
+        "count": 359,
+        "name": "Jon Shier"
+      },
+      {
+        "count": 42,
+        "name": "Aaron McTavish"
+      },
+      {
+        "count": 9,
+        "name": "dependabot[bot]"
+      },
+      {
+        "count": 8,
+        "name": "Christian Noon"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 26,
+        "name": "cocoapods"
+      },
+      {
+        "count": 24,
+        "name": "xcodeproj"
+      },
+      {
+        "count": 22,
+        "name": "jazzy"
+      },
+      {
+        "count": 22,
+        "name": "activesupport"
+      },
+      {
+        "count": 21,
+        "name": "cocoapods-core"
+      },
+      {
+        "count": 20,
+        "name": "minitest"
+      },
+      {
+        "count": 15,
+        "name": "ffi"
+      },
+      {
+        "count": 14,
+        "name": "concurrent-ruby"
+      },
+      {
+        "count": 13,
+        "name": "sqlite3"
+      },
+      {
+        "count": 13,
+        "name": "json"
+      }
+    ],
+    "total_changes": 418
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "repo": "https://github.com/square/retrofit",
+  "name": "retrofit",
+  "tested_at": "2026-01-23T12:38:10Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 1.232771125,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 2731,
+    "branches": 19
+  },
+  "init": {
+    "elapsed_seconds": 1.116245583,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "trunk",
+    "ecosystems": [
+      "maven",
+      "npm"
+    ],
+    "last_analyzed_sha": "d7cd924391c51081debc4bac5886654419e0f2be",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/retrofit/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 2731,
+      "branches": 1,
+      "commits": 2731,
+      "dependency_changes": 1405,
+      "dependency_snapshots": 940,
+      "manifests": 39,
+      "packages": 456,
+      "versions": 0
+    },
+    "schema_version": 6,
+    "size_bytes": 2310144
+  },
+  "manifests": 39,
+  "ecosystems": [
+    "maven",
+    "npm"
+  ],
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.038511333,
+      "success": true
+    },
+    "diff": {
+      "elapsed_seconds": 0.0226085,
+      "success": false
+    },
+    "history": {
+      "elapsed_seconds": 0.045625833,
+      "success": true,
+      "output_size": 686764
+    },
+    "licenses": {
+      "elapsed_seconds": 0.5572785,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.189845083,
+      "success": true
+    },
+    "list": {
+      "elapsed_seconds": 0.027889917,
+      "success": true,
+      "output_size": 172455,
+      "dependency_count": 468
+    },
+    "log": {
+      "elapsed_seconds": 0.02277625,
+      "success": true,
+      "output_size": 35812
+    },
+    "outdated": {
+      "elapsed_seconds": 6.357940708,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.022666209,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.036724125,
+      "success": true
+    },
+    "stale": {
+      "elapsed_seconds": 0.023580292,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.02422025,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "trunk",
+    "changes_by_type": {
+      "added": 756,
+      "modified": 357,
+      "removed": 292
+    },
+    "commits_analyzed": 2731,
+    "commits_with_changes": 180,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 912,
+        "name": "Jake Wharton"
+      },
+      {
+        "count": 437,
+        "name": "renovate[bot]"
+      },
+      {
+        "count": 12,
+        "name": "Adrian Cole"
+      },
+      {
+        "count": 11,
+        "name": "Jesse Wilson"
+      },
+      {
+        "count": 11,
+        "name": "Eric Burke"
+      },
+      {
+        "count": 5,
+        "name": "fabienric"
+      },
+      {
+        "count": 5,
+        "name": "Kai Waldron"
+      },
+      {
+        "count": 4,
+        "name": "Eric Denman"
+      },
+      {
+        "count": 2,
+        "name": "Ray Ryan"
+      },
+      {
+        "count": 2,
+        "name": "Logan Johnson"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 66,
+        "name": "astro"
+      },
+      {
+        "count": 50,
+        "name": "junit:junit"
+      },
+      {
+        "count": 38,
+        "name": "org.assertj:assertj-core"
+      },
+      {
+        "count": 36,
+        "name": "com.google.code.findbugs:jsr305"
+      },
+      {
+        "count": 36,
+        "name": "${project.groupId}:retrofit"
+      },
+      {
+        "count": 34,
+        "name": "com.squareup.okhttp3:mockwebserver"
+      },
+      {
+        "count": 32,
+        "name": "com.google.guava:guava"
+      },
+      {
+        "count": 27,
+        "name": "com.squareup.retrofit:retrofit"
+      },
+      {
+        "count": 23,
+        "name": "@astrojs/starlight"
+      },
+      {
+        "count": 20,
+        "name": "com.squareup.okhttp:mockwebserver"
+      }
+    ],
+    "total_changes": 1405
+  }
+}

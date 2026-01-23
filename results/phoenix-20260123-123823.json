@@ -1,0 +1,197 @@
+{
+  "repo": "https://github.com/phoenixframework/phoenix",
+  "name": "phoenix",
+  "tested_at": "2026-01-23T12:38:22Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 0.41535975,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 8706,
+    "branches": 35
+  },
+  "init": {
+    "elapsed_seconds": 0.017508791,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "main",
+    "ecosystems": [
+      "docker",
+      "hex",
+      "npm"
+    ],
+    "last_analyzed_sha": "60a009bbaa77644fc0a2c862042bde630b47a44d",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/phoenix/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 8706,
+      "branches": 1,
+      "commits": 8706,
+      "dependency_changes": 8978,
+      "dependency_snapshots": 8461,
+      "manifests": 24,
+      "packages": 1398,
+      "versions": 0
+    },
+    "schema_version": 6,
+    "size_bytes": 10280960
+  },
+  "manifests": 24,
+  "ecosystems": [
+    "docker",
+    "hex",
+    "npm"
+  ],
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.051780625,
+      "success": true
+    },
+    "diff": {
+      "elapsed_seconds": 0.047454708,
+      "success": false
+    },
+    "history": {
+      "elapsed_seconds": 0.105536791,
+      "success": true,
+      "output_size": 5827949
+    },
+    "licenses": {
+      "elapsed_seconds": 0.182752542,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.192459292,
+      "success": true
+    },
+    "list": {
+      "elapsed_seconds": 0.031855125,
+      "success": true,
+      "output_size": 737283,
+      "dependency_count": 2122
+    },
+    "log": {
+      "elapsed_seconds": 0.022283375,
+      "success": true,
+      "output_size": 98690
+    },
+    "outdated": {
+      "elapsed_seconds": 0.043839542,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.037965375,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.040657917,
+      "success": true
+    },
+    "stale": {
+      "elapsed_seconds": 0.019079833,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.027207958,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "main",
+    "changes_by_type": {
+      "added": 2365,
+      "modified": 5310,
+      "removed": 1303
+    },
+    "commits_analyzed": 8706,
+    "commits_with_changes": 558,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 2803,
+        "name": "Chris McCord"
+      },
+      {
+        "count": 1549,
+        "name": "dependabot[bot]"
+      },
+      {
+        "count": 777,
+        "name": "Dave Lucia"
+      },
+      {
+        "count": 775,
+        "name": "Steffen Deusch"
+      },
+      {
+        "count": 766,
+        "name": "José Valim"
+      },
+      {
+        "count": 556,
+        "name": "Brian Cardarella"
+      },
+      {
+        "count": 550,
+        "name": "snewcomer"
+      },
+      {
+        "count": 314,
+        "name": "Gary Rennie"
+      },
+      {
+        "count": 188,
+        "name": "Jonatan Männchen"
+      },
+      {
+        "count": 161,
+        "name": "haoxin"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 110,
+        "name": "phoenix_live_view"
+      },
+      {
+        "count": 102,
+        "name": "plug"
+      },
+      {
+        "count": 90,
+        "name": "ex_doc"
+      },
+      {
+        "count": 80,
+        "name": "phoenix_html"
+      },
+      {
+        "count": 57,
+        "name": "esbuild"
+      },
+      {
+        "count": 55,
+        "name": "phoenix_live_dashboard"
+      },
+      {
+        "count": 51,
+        "name": "ecto_sql"
+      },
+      {
+        "count": 49,
+        "name": "phoenix_ecto"
+      },
+      {
+        "count": 46,
+        "name": "gettext"
+      },
+      {
+        "count": 46,
+        "name": "ecto"
+      }
+    ],
+    "total_changes": 8978
+  }
+}

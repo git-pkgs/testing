@@ -1,0 +1,193 @@
+{
+  "repo": "https://github.com/lodash/lodash",
+  "name": "lodash",
+  "tested_at": "2026-01-23T12:35:38Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 0.390445458,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 7687,
+    "branches": 9
+  },
+  "init": {
+    "elapsed_seconds": 0.016885541,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "main",
+    "ecosystems": [
+      "npm"
+    ],
+    "last_analyzed_sha": "62b439f689642a1cedd3c5c81f4fc58898d5460a",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/lodash/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 7687,
+      "branches": 1,
+      "commits": 7687,
+      "dependency_changes": 2471,
+      "dependency_snapshots": 563,
+      "manifests": 3,
+      "packages": 512,
+      "versions": 0
+    },
+    "schema_version": 6,
+    "size_bytes": 4665344
+  },
+  "manifests": 3,
+  "ecosystems": [
+    "npm"
+  ],
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.032333,
+      "success": true
+    },
+    "diff": {
+      "elapsed_seconds": 0.017046917,
+      "success": false
+    },
+    "history": {
+      "elapsed_seconds": 0.038400584,
+      "success": true,
+      "output_size": 1020771
+    },
+    "licenses": {
+      "elapsed_seconds": 0.02061425,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.019084167,
+      "success": true
+    },
+    "list": {
+      "elapsed_seconds": 0.021877041,
+      "success": true,
+      "output_size": 166230,
+      "dependency_count": 539
+    },
+    "log": {
+      "elapsed_seconds": 0.0272255,
+      "success": true,
+      "output_size": 590529
+    },
+    "outdated": {
+      "elapsed_seconds": 0.022829042,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.022103542,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.028130958,
+      "success": true
+    },
+    "stale": {
+      "elapsed_seconds": 0.017804917,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.021156167,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "main",
+    "changes_by_type": {
+      "added": 1187,
+      "modified": 791,
+      "removed": 493
+    },
+    "commits_analyzed": 7687,
+    "commits_with_changes": 175,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 1690,
+        "name": "John-David Dalton"
+      },
+      {
+        "count": 476,
+        "name": "Ulises Gascón"
+      },
+      {
+        "count": 140,
+        "name": "Mathias Bynens"
+      },
+      {
+        "count": 68,
+        "name": "Benjamin Tan"
+      },
+      {
+        "count": 49,
+        "name": "greenkeeperio-bot"
+      },
+      {
+        "count": 23,
+        "name": "Greenkeeper"
+      },
+      {
+        "count": 8,
+        "name": "greenkeeper[bot]"
+      },
+      {
+        "count": 5,
+        "name": "jdalton"
+      },
+      {
+        "count": 4,
+        "name": "Kit Cambridge"
+      },
+      {
+        "count": 2,
+        "name": "Kent C. Dodds"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 49,
+        "name": "lodash"
+      },
+      {
+        "count": 30,
+        "name": "async"
+      },
+      {
+        "count": 25,
+        "name": "glob"
+      },
+      {
+        "count": 24,
+        "name": "request"
+      },
+      {
+        "count": 19,
+        "name": "webpack"
+      },
+      {
+        "count": 19,
+        "name": "qunitjs"
+      },
+      {
+        "count": 19,
+        "name": "jscs"
+      },
+      {
+        "count": 18,
+        "name": "minimist"
+      },
+      {
+        "count": 17,
+        "name": "uglify-js"
+      },
+      {
+        "count": 17,
+        "name": "source-map"
+      }
+    ],
+    "total_changes": 2471
+  }
+}

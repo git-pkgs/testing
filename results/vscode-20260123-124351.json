@@ -1,18 +1,18 @@
 {
   "repo": "https://github.com/microsoft/vscode",
   "name": "vscode",
-  "tested_at": "2026-01-23T10:35:37Z",
+  "tested_at": "2026-01-23T12:42:33Z",
   "git_pkgs_version": "",
   "clone": {
-    "elapsed_seconds": 83.139482375,
+    "elapsed_seconds": 64.880666,
     "success": true
   },
   "repo_stats": {
-    "commits": 144371,
-    "branches": 2693
+    "commits": 144385,
+    "branches": 2690
   },
   "init": {
-    "elapsed_seconds": 62.350368708,
+    "elapsed_seconds": 0.019159625,
     "success": true
   },
   "db_info": {
@@ -32,29 +32,72 @@
       "commits": 144371,
       "dependency_changes": 75682,
       "dependency_snapshots": 226661,
-      "manifests": 281
+      "manifests": 281,
+      "packages": 2619,
+      "versions": 0
     },
     "schema_version": 6,
-    "size_bytes": 219639808
+    "size_bytes": 220192768
   },
+  "manifests": 281,
+  "ecosystems": [
+    "cargo",
+    "docker",
+    "npm",
+    "nuget",
+    "vcpkg"
+  ],
   "commands": {
     "blame": {
-      "elapsed_seconds": 0.351032333,
+      "elapsed_seconds": 0.472080458,
       "success": true
     },
+    "diff": {
+      "elapsed_seconds": 0.016729708,
+      "success": false
+    },
     "history": {
-      "elapsed_seconds": 0.8810935,
+      "elapsed_seconds": 1.022913333,
       "success": true,
       "output_size": 62777082
     },
+    "licenses": {
+      "elapsed_seconds": 0.191688333,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.189449792,
+      "success": true
+    },
     "list": {
-      "elapsed_seconds": 0.055520042,
+      "elapsed_seconds": 0.101875834,
       "success": true,
       "output_size": 2528050,
       "dependency_count": 7005
     },
+    "log": {
+      "elapsed_seconds": 0.021785375,
+      "success": true,
+      "output_size": 66891
+    },
+    "outdated": {
+      "elapsed_seconds": 6.674375333,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.237021292,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.310342125,
+      "success": true
+    },
     "stale": {
-      "elapsed_seconds": 0.022446708,
+      "elapsed_seconds": 0.023151292,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.04364975,
       "success": true
     }
   },

@@ -1,0 +1,193 @@
+{
+  "repo": "https://github.com/sharkdp/fd",
+  "name": "fd",
+  "tested_at": "2026-01-23T12:38:04Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 0.655622792,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 1816,
+    "branches": 9
+  },
+  "init": {
+    "elapsed_seconds": 0.614154084,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "master",
+    "ecosystems": [
+      "cargo"
+    ],
+    "last_analyzed_sha": "bf81fb98fae7731a11ad7ae4927d7083de02310c",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/fd/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 1816,
+      "branches": 1,
+      "commits": 1816,
+      "dependency_changes": 1895,
+      "dependency_snapshots": 505,
+      "manifests": 4,
+      "packages": 112,
+      "versions": 0
+    },
+    "schema_version": 6,
+    "size_bytes": 2088960
+  },
+  "manifests": 4,
+  "ecosystems": [
+    "cargo"
+  ],
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.025814291,
+      "success": true
+    },
+    "diff": {
+      "elapsed_seconds": 0.017916375,
+      "success": false
+    },
+    "history": {
+      "elapsed_seconds": 0.037347792,
+      "success": true,
+      "output_size": 1153640
+    },
+    "licenses": {
+      "elapsed_seconds": 0.590522292,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.022541292,
+      "success": true
+    },
+    "list": {
+      "elapsed_seconds": 0.020845833,
+      "success": true,
+      "output_size": 49612,
+      "dependency_count": 135
+    },
+    "log": {
+      "elapsed_seconds": 0.022096625,
+      "success": true,
+      "output_size": 54462
+    },
+    "outdated": {
+      "elapsed_seconds": 1.2143637090000001,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.020315292,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.023083667,
+      "success": true
+    },
+    "stale": {
+      "elapsed_seconds": 0.019186334,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.0198435,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "master",
+    "changes_by_type": {
+      "added": 308,
+      "modified": 1406,
+      "removed": 181
+    },
+    "commits_analyzed": 1816,
+    "commits_with_changes": 337,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 641,
+        "name": "Thayne McCombs"
+      },
+      {
+        "count": 489,
+        "name": "dependabot[bot]"
+      },
+      {
+        "count": 390,
+        "name": "sharkdp"
+      },
+      {
+        "count": 106,
+        "name": "Tavian Barnes"
+      },
+      {
+        "count": 87,
+        "name": "David Peter"
+      },
+      {
+        "count": 36,
+        "name": "Jacob Mischka"
+      },
+      {
+        "count": 32,
+        "name": "Shun Sakai"
+      },
+      {
+        "count": 16,
+        "name": "Josh Sleeper"
+      },
+      {
+        "count": 12,
+        "name": "Matthias Reitinger"
+      },
+      {
+        "count": 11,
+        "name": "Utkarsh Gupta"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 85,
+        "name": "clap"
+      },
+      {
+        "count": 78,
+        "name": "clap_complete"
+      },
+      {
+        "count": 62,
+        "name": "libc"
+      },
+      {
+        "count": 50,
+        "name": "regex"
+      },
+      {
+        "count": 48,
+        "name": "lscolors"
+      },
+      {
+        "count": 39,
+        "name": "anyhow"
+      },
+      {
+        "count": 31,
+        "name": "tempfile"
+      },
+      {
+        "count": 31,
+        "name": "ignore"
+      },
+      {
+        "count": 30,
+        "name": "regex-syntax"
+      },
+      {
+        "count": 29,
+        "name": "ctrlc"
+      }
+    ],
+    "total_changes": 1895
+  }
+}

@@ -1,18 +1,18 @@
 {
   "repo": "https://github.com/facebook/react",
   "name": "react",
-  "tested_at": "2026-01-23T10:28:55Z",
+  "tested_at": "2026-01-23T12:35:39Z",
   "git_pkgs_version": "",
   "clone": {
-    "elapsed_seconds": 65.58048675,
-    "success": true
+    "elapsed_seconds": 0.045972708,
+    "success": false
   },
   "repo_stats": {
-    "commits": 21291,
-    "branches": 754
+    "commits": 21292,
+    "branches": 753
   },
   "init": {
-    "elapsed_seconds": 18.902843208,
+    "elapsed_seconds": 0.016798084,
     "success": true
   },
   "db_info": {
@@ -31,29 +31,71 @@
       "commits": 21291,
       "dependency_changes": 66377,
       "dependency_snapshots": 233455,
-      "manifests": 314
+      "manifests": 314,
+      "packages": 1440,
+      "versions": 0
     },
     "schema_version": 6,
-    "size_bytes": 198680576
+    "size_bytes": 199000064
   },
+  "manifests": 314,
+  "ecosystems": [
+    "bower",
+    "cargo",
+    "gem",
+    "npm"
+  ],
   "commands": {
     "blame": {
-      "elapsed_seconds": 0.443410875,
+      "elapsed_seconds": 0.47897975,
       "success": true
     },
+    "diff": {
+      "elapsed_seconds": 0.016370709,
+      "success": false
+    },
     "history": {
-      "elapsed_seconds": 0.820153125,
+      "elapsed_seconds": 0.960909959,
       "success": true,
       "output_size": 74063834
     },
+    "licenses": {
+      "elapsed_seconds": 0.296647667,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.316706833,
+      "success": true
+    },
     "list": {
-      "elapsed_seconds": 0.205967333,
+      "elapsed_seconds": 0.236601209,
       "success": true,
       "output_size": 12277599,
       "dependency_count": 27844
     },
+    "log": {
+      "elapsed_seconds": 0.021695333,
+      "success": true,
+      "output_size": 78289
+    },
+    "outdated": {
+      "elapsed_seconds": 60.241638833,
+      "success": false
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 60.226130209,
+      "success": false
+    },
+    "search": {
+      "elapsed_seconds": 0.155984375,
+      "success": true
+    },
     "stale": {
-      "elapsed_seconds": 0.019767167,
+      "elapsed_seconds": 0.020199625,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.167088834,
       "success": true
     }
   },

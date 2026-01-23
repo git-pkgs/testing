@@ -1,10 +1,10 @@
 {
   "repo": "https://github.com/thoughtbot/paperclip",
   "name": "paperclip",
-  "tested_at": "2026-01-23T10:28:01Z",
+  "tested_at": "2026-01-23T12:35:30Z",
   "git_pkgs_version": "",
   "clone": {
-    "elapsed_seconds": 0.925427042,
+    "elapsed_seconds": 0.418825333,
     "success": true
   },
   "repo_stats": {
@@ -12,7 +12,7 @@
     "branches": 11
   },
   "init": {
-    "elapsed_seconds": 0.321868875,
+    "elapsed_seconds": 0.017084084,
     "success": true
   },
   "db_info": {
@@ -28,29 +28,68 @@
       "commits": 1973,
       "dependency_changes": 652,
       "dependency_snapshots": 67,
-      "manifests": 3
+      "manifests": 3,
+      "packages": 64,
+      "versions": 0
     },
     "schema_version": 6,
-    "size_bytes": 1196032
+    "size_bytes": 1208320
   },
+  "manifests": 3,
+  "ecosystems": [
+    "gem"
+  ],
   "commands": {
     "blame": {
-      "elapsed_seconds": 0.02068925,
+      "elapsed_seconds": 0.021680667,
       "success": true
     },
+    "diff": {
+      "elapsed_seconds": 0.017084042,
+      "success": false
+    },
     "history": {
-      "elapsed_seconds": 0.023244459,
+      "elapsed_seconds": 0.025654459,
       "success": true,
       "output_size": 301752
     },
+    "licenses": {
+      "elapsed_seconds": 0.019104917,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.018560959,
+      "success": true
+    },
     "list": {
-      "elapsed_seconds": 0.017910708,
+      "elapsed_seconds": 0.019968875,
       "success": true,
       "output_size": 7693,
       "dependency_count": 34
     },
+    "log": {
+      "elapsed_seconds": 0.017938666,
+      "success": true,
+      "output_size": 19853
+    },
+    "outdated": {
+      "elapsed_seconds": 0.018720666,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.0172165,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.018312458,
+      "success": true
+    },
     "stale": {
-      "elapsed_seconds": 0.017149583,
+      "elapsed_seconds": 0.0194835,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.019528334,
       "success": true
     }
   },

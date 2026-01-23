@@ -1,0 +1,193 @@
+{
+  "repo": "https://github.com/charmbracelet/bubbletea",
+  "name": "bubbletea",
+  "tested_at": "2026-01-23T12:37:49Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 0.412379083,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 1080,
+    "branches": 26
+  },
+  "init": {
+    "elapsed_seconds": 0.017824167,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "main",
+    "ecosystems": [
+      "golang"
+    ],
+    "last_analyzed_sha": "f9233d51192293dadda7184a4de347738606c328",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/bubbletea/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 1080,
+      "branches": 1,
+      "commits": 1080,
+      "dependency_changes": 1492,
+      "dependency_snapshots": 386,
+      "manifests": 10,
+      "packages": 47,
+      "versions": 0
+    },
+    "schema_version": 6,
+    "size_bytes": 1429504
+  },
+  "manifests": 10,
+  "ecosystems": [
+    "golang"
+  ],
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.02240825,
+      "success": true
+    },
+    "diff": {
+      "elapsed_seconds": 0.017383084,
+      "success": false
+    },
+    "history": {
+      "elapsed_seconds": 0.037871,
+      "success": true,
+      "output_size": 958959
+    },
+    "licenses": {
+      "elapsed_seconds": 0.019554583,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.024326625,
+      "success": true
+    },
+    "list": {
+      "elapsed_seconds": 0.019134291,
+      "success": true,
+      "output_size": 48988,
+      "dependency_count": 155
+    },
+    "log": {
+      "elapsed_seconds": 0.019448958,
+      "success": true,
+      "output_size": 38022
+    },
+    "outdated": {
+      "elapsed_seconds": 0.237768917,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.17470975,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.022875875,
+      "success": true
+    },
+    "stale": {
+      "elapsed_seconds": 0.018647208,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.022343042,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "main",
+    "changes_by_type": {
+      "added": 381,
+      "modified": 888,
+      "removed": 223
+    },
+    "commits_analyzed": 1080,
+    "commits_with_changes": 226,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 553,
+        "name": "Christian Rocha"
+      },
+      {
+        "count": 362,
+        "name": "dependabot[bot]"
+      },
+      {
+        "count": 181,
+        "name": "Ayman Bagabas"
+      },
+      {
+        "count": 131,
+        "name": "Christian Muehlhaeuser"
+      },
+      {
+        "count": 102,
+        "name": "Carlos Alexandro Becker"
+      },
+      {
+        "count": 78,
+        "name": "Pheon-Dev"
+      },
+      {
+        "count": 28,
+        "name": "Maas Lalani"
+      },
+      {
+        "count": 15,
+        "name": "Andrey Nering"
+      },
+      {
+        "count": 11,
+        "name": "Tobias Klauser"
+      },
+      {
+        "count": 9,
+        "name": "Christoffer Åström"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 218,
+        "name": "golang.org/x/sys"
+      },
+      {
+        "count": 113,
+        "name": "github.com/muesli/termenv"
+      },
+      {
+        "count": 85,
+        "name": "github.com/charmbracelet/bubbles"
+      },
+      {
+        "count": 74,
+        "name": "github.com/charmbracelet/x/ansi"
+      },
+      {
+        "count": 62,
+        "name": "golang.org/x/sync"
+      },
+      {
+        "count": 61,
+        "name": "golang.org/x/term"
+      },
+      {
+        "count": 52,
+        "name": "github.com/mattn/go-isatty"
+      },
+      {
+        "count": 50,
+        "name": "github.com/charmbracelet/lipgloss"
+      },
+      {
+        "count": 50,
+        "name": "github.com/charmbracelet/bubbletea"
+      },
+      {
+        "count": 39,
+        "name": "github.com/mattn/go-runewidth"
+      }
+    ],
+    "total_changes": 1492
+  }
+}

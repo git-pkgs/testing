@@ -1,0 +1,193 @@
+{
+  "repo": "https://github.com/google/gson",
+  "name": "gson",
+  "tested_at": "2026-01-23T12:38:08Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 1.026928792,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 2165,
+    "branches": 12
+  },
+  "init": {
+    "elapsed_seconds": 0.663502459,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "main",
+    "ecosystems": [
+      "maven"
+    ],
+    "last_analyzed_sha": "286843d4a90a4690e5e1f438c944569b3fbfb1d2",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/gson/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 2165,
+      "branches": 1,
+      "commits": 2165,
+      "dependency_changes": 275,
+      "dependency_snapshots": 57,
+      "manifests": 20,
+      "packages": 12,
+      "versions": 0
+    },
+    "schema_version": 6,
+    "size_bytes": 1601536
+  },
+  "manifests": 20,
+  "ecosystems": [
+    "maven"
+  ],
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.0283365,
+      "success": true
+    },
+    "diff": {
+      "elapsed_seconds": 0.020543166,
+      "success": false
+    },
+    "history": {
+      "elapsed_seconds": 0.029827917,
+      "success": true,
+      "output_size": 483340
+    },
+    "licenses": {
+      "elapsed_seconds": 0.338165666,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.020131875,
+      "success": true
+    },
+    "list": {
+      "elapsed_seconds": 0.019802916,
+      "success": true,
+      "output_size": 9485,
+      "dependency_count": 36
+    },
+    "log": {
+      "elapsed_seconds": 0.022432958,
+      "success": true,
+      "output_size": 63424
+    },
+    "outdated": {
+      "elapsed_seconds": 0.018609792,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.018634334,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.022203041,
+      "success": true
+    },
+    "stale": {
+      "elapsed_seconds": 0.020525959,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.019689583,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "main",
+    "changes_by_type": {
+      "added": 77,
+      "modified": 148,
+      "removed": 50
+    },
+    "commits_analyzed": 2165,
+    "commits_with_changes": 145,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 111,
+        "name": "Inderjeet Singh"
+      },
+      {
+        "count": 97,
+        "name": "dependabot[bot]"
+      },
+      {
+        "count": 30,
+        "name": "Marcono1234"
+      },
+      {
+        "count": 20,
+        "name": "Éamonn McManus"
+      },
+      {
+        "count": 6,
+        "name": "Emmanuel Cron"
+      },
+      {
+        "count": 3,
+        "name": "Maicol"
+      },
+      {
+        "count": 2,
+        "name": "jwilson"
+      },
+      {
+        "count": 1,
+        "name": "kentrachmat"
+      },
+      {
+        "count": 1,
+        "name": "inder123"
+      },
+      {
+        "count": 1,
+        "name": "YOUNG HO CHA"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 51,
+        "name": "com.google.code.gson:gson"
+      },
+      {
+        "count": 35,
+        "name": "junit:junit"
+      },
+      {
+        "count": 29,
+        "name": "com.google.errorprone:error_prone_annotations"
+      },
+      {
+        "count": 28,
+        "name": "com.google.guava:guava"
+      },
+      {
+        "count": 28,
+        "name": "com.fasterxml.jackson.core:jackson-databind"
+      },
+      {
+        "count": 16,
+        "name": "com.google.guava:guava-testlib"
+      },
+      {
+        "count": 10,
+        "name": "com.google.code.gson:wsdef"
+      },
+      {
+        "count": 10,
+        "name": "com.google.code.greaze:greaze-definition"
+      },
+      {
+        "count": 9,
+        "name": "org.junit.jupiter:junit-jupiter"
+      },
+      {
+        "count": 9,
+        "name": "com.google.truth:truth"
+      }
+    ],
+    "total_changes": 275
+  }
+}

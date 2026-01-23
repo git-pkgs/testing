@@ -1,0 +1,11 @@
+{
+  "repo": "https://github.com/monolog/monolog",
+  "name": "monolog",
+  "tested_at": "2026-01-23T12:38:21Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 0.554173375,
+    "success": false
+  },
+  "manifests": 0
+}

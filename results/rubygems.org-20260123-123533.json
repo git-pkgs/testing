@@ -1,10 +1,10 @@
 {
   "repo": "https://github.com/rubygems/rubygems.org",
   "name": "rubygems.org",
-  "tested_at": "2026-01-23T10:27:52Z",
+  "tested_at": "2026-01-23T12:35:31Z",
   "git_pkgs_version": "",
   "clone": {
-    "elapsed_seconds": 4.760419,
+    "elapsed_seconds": 0.50906775,
     "success": true
   },
   "repo_stats": {
@@ -12,7 +12,7 @@
     "branches": 106
   },
   "init": {
-    "elapsed_seconds": 3.7462016670000002,
+    "elapsed_seconds": 0.015984041,
     "success": true
   },
   "db_info": {
@@ -30,29 +30,70 @@
       "commits": 11966,
       "dependency_changes": 8933,
       "dependency_snapshots": 10166,
-      "manifests": 9
+      "manifests": 9,
+      "packages": 678,
+      "versions": 0
     },
     "schema_version": 6,
-    "size_bytes": 11743232
+    "size_bytes": 11882496
   },
+  "manifests": 9,
+  "ecosystems": [
+    "docker",
+    "gem",
+    "pypi"
+  ],
   "commands": {
     "blame": {
-      "elapsed_seconds": 0.03960925,
+      "elapsed_seconds": 0.039557292,
       "success": true
     },
+    "diff": {
+      "elapsed_seconds": 0.015434542,
+      "success": false
+    },
     "history": {
-      "elapsed_seconds": 0.099971125,
+      "elapsed_seconds": 0.106067791,
       "success": true,
       "output_size": 6025177
     },
+    "licenses": {
+      "elapsed_seconds": 0.167069375,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.185365083,
+      "success": true
+    },
     "list": {
-      "elapsed_seconds": 0.020599167,
+      "elapsed_seconds": 0.020541083,
       "success": true,
       "output_size": 139227,
       "dependency_count": 473
     },
+    "log": {
+      "elapsed_seconds": 0.017720166,
+      "success": true,
+      "output_size": 37156
+    },
+    "outdated": {
+      "elapsed_seconds": 0.293262292,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.020423917,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.038419792,
+      "success": true
+    },
     "stale": {
-      "elapsed_seconds": 0.039326625,
+      "elapsed_seconds": 0.0354215,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.019356542,
       "success": true
     }
   },

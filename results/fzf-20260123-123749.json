@@ -1,0 +1,197 @@
+{
+  "repo": "https://github.com/junegunn/fzf",
+  "name": "fzf",
+  "tested_at": "2026-01-23T12:37:48Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 0.380149834,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 3466,
+    "branches": 10
+  },
+  "init": {
+    "elapsed_seconds": 0.017724792,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "master",
+    "ecosystems": [
+      "docker",
+      "gem",
+      "golang"
+    ],
+    "last_analyzed_sha": "14564e4fc7e7d688afe607f4c71ec938c2a8b44a",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/fzf/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 3466,
+      "branches": 1,
+      "commits": 3466,
+      "dependency_changes": 437,
+      "dependency_snapshots": 42,
+      "manifests": 13,
+      "packages": 41,
+      "versions": 0
+    },
+    "schema_version": 6,
+    "size_bytes": 1900544
+  },
+  "manifests": 13,
+  "ecosystems": [
+    "docker",
+    "gem",
+    "golang"
+  ],
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.023143125,
+      "success": true
+    },
+    "diff": {
+      "elapsed_seconds": 0.017762542,
+      "success": false
+    },
+    "history": {
+      "elapsed_seconds": 0.029431917,
+      "success": true,
+      "output_size": 331398
+    },
+    "licenses": {
+      "elapsed_seconds": 0.151352917,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.124802125,
+      "success": true
+    },
+    "list": {
+      "elapsed_seconds": 0.018799459,
+      "success": true,
+      "output_size": 11201,
+      "dependency_count": 42
+    },
+    "log": {
+      "elapsed_seconds": 0.020873125,
+      "success": true,
+      "output_size": 41051
+    },
+    "outdated": {
+      "elapsed_seconds": 0.020520292,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.022097292,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.022844625,
+      "success": true
+    },
+    "stale": {
+      "elapsed_seconds": 0.018492,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.018588542,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "master",
+    "changes_by_type": {
+      "added": 109,
+      "modified": 261,
+      "removed": 67
+    },
+    "commits_analyzed": 3466,
+    "commits_with_changes": 98,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 163,
+        "name": "dependabot[bot]"
+      },
+      {
+        "count": 144,
+        "name": "Junegunn Choi"
+      },
+      {
+        "count": 45,
+        "name": "Stefan Tatschner"
+      },
+      {
+        "count": 31,
+        "name": "mattn"
+      },
+      {
+        "count": 14,
+        "name": "Edgar Lee"
+      },
+      {
+        "count": 13,
+        "name": "Charlie Vieth"
+      },
+      {
+        "count": 8,
+        "name": "Mitsuo Heijo"
+      },
+      {
+        "count": 6,
+        "name": "Younes Manton"
+      },
+      {
+        "count": 4,
+        "name": "Michael Kelley"
+      },
+      {
+        "count": 4,
+        "name": "Emil Vanherp"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 72,
+        "name": "golang.org/x/sys"
+      },
+      {
+        "count": 52,
+        "name": "golang.org/x/term"
+      },
+      {
+        "count": 24,
+        "name": "golang.org/x/text"
+      },
+      {
+        "count": 22,
+        "name": "github.com/mattn/go-runewidth"
+      },
+      {
+        "count": 22,
+        "name": "github.com/charlievieth/fastwalk"
+      },
+      {
+        "count": 18,
+        "name": "github.com/gdamore/tcell/v2"
+      },
+      {
+        "count": 17,
+        "name": "golang.org/x/sync"
+      },
+      {
+        "count": 16,
+        "name": "github.com/mattn/go-shellwords"
+      },
+      {
+        "count": 16,
+        "name": "github.com/mattn/go-isatty"
+      },
+      {
+        "count": 14,
+        "name": "golang.org/x/crypto"
+      }
+    ],
+    "total_changes": 437
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "repo": "https://github.com/sharkdp/bat",
+  "name": "bat",
+  "tested_at": "2026-01-23T12:37:55Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 0.471272458,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 3656,
+    "branches": 9
+  },
+  "init": {
+    "elapsed_seconds": 0.018216208,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "master",
+    "ecosystems": [
+      "cargo",
+      "golang",
+      "hackage",
+      "nimble",
+      "pypi"
+    ],
+    "last_analyzed_sha": "cd06fe46e001483115273e1a03f448720b945948",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/bat/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 3656,
+      "branches": 1,
+      "commits": 3656,
+      "dependency_changes": 2909,
+      "dependency_snapshots": 1554,
+      "manifests": 11,
+      "packages": 310,
+      "versions": 0
+    },
+    "schema_version": 6,
+    "size_bytes": 3796992
+  },
+  "manifests": 11,
+  "ecosystems": [
+    "cargo",
+    "golang",
+    "hackage",
+    "nimble",
+    "pypi"
+  ],
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.028729709,
+      "success": true
+    },
+    "diff": {
+      "elapsed_seconds": 0.017111959,
+      "success": false
+    },
+    "history": {
+      "elapsed_seconds": 0.05065925,
+      "success": true,
+      "output_size": 1736246
+    },
+    "licenses": {
+      "elapsed_seconds": 0.569212625,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.342098125,
+      "success": true
+    },
+    "list": {
+      "elapsed_seconds": 0.023672791,
+      "success": true,
+      "output_size": 139844,
+      "dependency_count": 416
+    },
+    "log": {
+      "elapsed_seconds": 0.019090708,
+      "success": true,
+      "output_size": 44465
+    },
+    "outdated": {
+      "elapsed_seconds": 7.575796875,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.022762125,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.0290965,
+      "success": true
+    },
+    "stale": {
+      "elapsed_seconds": 0.019260625,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.020755042,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "master",
+    "changes_by_type": {
+      "added": 716,
+      "modified": 1889,
+      "removed": 304
+    },
+    "commits_analyzed": 3656,
+    "commits_with_changes": 487,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 1014,
+        "name": "sharkdp"
+      },
+      {
+        "count": 675,
+        "name": "dependabot[bot]"
+      },
+      {
+        "count": 307,
+        "name": "dependabot-preview[bot]"
+      },
+      {
+        "count": 124,
+        "name": "Branch Vincent"
+      },
+      {
+        "count": 91,
+        "name": "Martin Nordholts"
+      },
+      {
+        "count": 70,
+        "name": "cyqsimon"
+      },
+      {
+        "count": 70,
+        "name": "Gábor Lipták"
+      },
+      {
+        "count": 63,
+        "name": "Mohamed Abdelnour"
+      },
+      {
+        "count": 63,
+        "name": "David Peter"
+      },
+      {
+        "count": 57,
+        "name": "Constantin Nickel"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 59,
+        "name": "console"
+      },
+      {
+        "count": 57,
+        "name": "git2"
+      },
+      {
+        "count": 52,
+        "name": "serde"
+      },
+      {
+        "count": 50,
+        "name": "serde_derive"
+      },
+      {
+        "count": 43,
+        "name": "syntect"
+      },
+      {
+        "count": 43,
+        "name": "regex"
+      },
+      {
+        "count": 41,
+        "name": "libgit2-sys"
+      },
+      {
+        "count": 41,
+        "name": "assert_cmd"
+      },
+      {
+        "count": 39,
+        "name": "predicates"
+      },
+      {
+        "count": 38,
+        "name": "clap"
+      }
+    ],
+    "total_changes": 2909
+  }
+}

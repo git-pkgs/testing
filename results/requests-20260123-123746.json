@@ -1,10 +1,10 @@
 {
   "repo": "https://github.com/psf/requests",
   "name": "requests",
-  "tested_at": "2026-01-23T10:30:33Z",
+  "tested_at": "2026-01-23T12:37:45Z",
   "git_pkgs_version": "",
   "clone": {
-    "elapsed_seconds": 1.2975936670000001,
+    "elapsed_seconds": 0.419174875,
     "success": true
   },
   "repo_stats": {
@@ -12,7 +12,7 @@
     "branches": 17
   },
   "init": {
-    "elapsed_seconds": 0.843018875,
+    "elapsed_seconds": 0.020351875,
     "success": true
   },
   "db_info": {
@@ -28,29 +28,68 @@
       "commits": 6379,
       "dependency_changes": 1089,
       "dependency_snapshots": 8,
-      "manifests": 7
+      "manifests": 7,
+      "packages": 7,
+      "versions": 0
     },
     "schema_version": 6,
     "size_bytes": 2998272
   },
+  "manifests": 7,
+  "ecosystems": [
+    "pypi"
+  ],
   "commands": {
     "blame": {
-      "elapsed_seconds": 0.024474459,
+      "elapsed_seconds": 0.025086875,
       "success": true
     },
+    "diff": {
+      "elapsed_seconds": 0.0182515,
+      "success": false
+    },
     "history": {
-      "elapsed_seconds": 0.029391375,
+      "elapsed_seconds": 0.034039458,
       "success": true,
       "output_size": 447057
     },
+    "licenses": {
+      "elapsed_seconds": 0.25908,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.361654625,
+      "success": true
+    },
     "list": {
-      "elapsed_seconds": 0.0184125,
+      "elapsed_seconds": 0.020936792,
       "success": true,
       "output_size": 1856,
       "dependency_count": 8
     },
+    "log": {
+      "elapsed_seconds": 0.021026458,
+      "success": true,
+      "output_size": 55312
+    },
+    "outdated": {
+      "elapsed_seconds": 0.019537333,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.018950291,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.025494584,
+      "success": true
+    },
     "stale": {
-      "elapsed_seconds": 0.017320583,
+      "elapsed_seconds": 0.018318125,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.01828475,
       "success": true
     }
   },

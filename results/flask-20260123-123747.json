@@ -1,0 +1,193 @@
+{
+  "repo": "https://github.com/pallets/flask",
+  "name": "flask",
+  "tested_at": "2026-01-23T12:37:46Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 0.387857959,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 5474,
+    "branches": 4
+  },
+  "init": {
+    "elapsed_seconds": 0.018929458,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "main",
+    "ecosystems": [
+      "pypi"
+    ],
+    "last_analyzed_sha": "2579ce9f18e67ec3213c6eceb5240310ccd46af8",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/flask/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 5474,
+      "branches": 1,
+      "commits": 5474,
+      "dependency_changes": 350,
+      "dependency_snapshots": 115,
+      "manifests": 18,
+      "packages": 95,
+      "versions": 0
+    },
+    "schema_version": 6,
+    "size_bytes": 2592768
+  },
+  "manifests": 18,
+  "ecosystems": [
+    "pypi"
+  ],
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.024928333,
+      "success": true
+    },
+    "diff": {
+      "elapsed_seconds": 0.01783625,
+      "success": false
+    },
+    "history": {
+      "elapsed_seconds": 0.02616275,
+      "success": true,
+      "output_size": 145769
+    },
+    "licenses": {
+      "elapsed_seconds": 0.022794,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.022833084,
+      "success": true
+    },
+    "list": {
+      "elapsed_seconds": 0.020781625,
+      "success": true,
+      "output_size": 33905,
+      "dependency_count": 115
+    },
+    "log": {
+      "elapsed_seconds": 0.020396084,
+      "success": true,
+      "output_size": 62817
+    },
+    "outdated": {
+      "elapsed_seconds": 0.020014208,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.019159916,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.024410042,
+      "success": true
+    },
+    "stale": {
+      "elapsed_seconds": 0.018261375,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.019356209,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "main",
+    "changes_by_type": {
+      "added": 158,
+      "modified": 152,
+      "removed": 40
+    },
+    "commits_analyzed": 5474,
+    "commits_with_changes": 80,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 296,
+        "name": "David Lord"
+      },
+      {
+        "count": 19,
+        "name": "Armin Ronacher"
+      },
+      {
+        "count": 11,
+        "name": "Markus Unterwaditzer"
+      },
+      {
+        "count": 8,
+        "name": "Daniel Neuhäuser"
+      },
+      {
+        "count": 2,
+        "name": "Kyle Lawlor"
+      },
+      {
+        "count": 2,
+        "name": "Antonio Larrosa"
+      },
+      {
+        "count": 2,
+        "name": "Anton Sarukhanov"
+      },
+      {
+        "count": 1,
+        "name": "wgwz"
+      },
+      {
+        "count": 1,
+        "name": "pgjones"
+      },
+      {
+        "count": 1,
+        "name": "jab"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 28,
+        "name": "Werkzeug"
+      },
+      {
+        "count": 21,
+        "name": "flask"
+      },
+      {
+        "count": 17,
+        "name": "click"
+      },
+      {
+        "count": 16,
+        "name": "itsdangerous"
+      },
+      {
+        "count": 14,
+        "name": "Jinja2"
+      },
+      {
+        "count": 10,
+        "name": "blinker"
+      },
+      {
+        "count": 8,
+        "name": "importlib-metadata"
+      },
+      {
+        "count": 7,
+        "name": "tox"
+      },
+      {
+        "count": 7,
+        "name": "pytest"
+      },
+      {
+        "count": 7,
+        "name": "git"
+      }
+    ],
+    "total_changes": 350
+  }
+}

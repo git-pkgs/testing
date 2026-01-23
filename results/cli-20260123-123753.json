@@ -1,0 +1,199 @@
+{
+  "repo": "https://github.com/cli/cli",
+  "name": "cli",
+  "tested_at": "2026-01-23T12:37:50Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 0.446503,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 10693,
+    "branches": 182
+  },
+  "init": {
+    "elapsed_seconds": 0.017556833,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "trunk",
+    "ecosystems": [
+      "docker",
+      "golang",
+      "npm",
+      "pypi"
+    ],
+    "last_analyzed_sha": "e643df99cf44f6d644e3c2abc5bc5f161e934ea9",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/cli/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 10693,
+      "branches": 1,
+      "commits": 10693,
+      "dependency_changes": 4667,
+      "dependency_snapshots": 1507,
+      "manifests": 24,
+      "packages": 349,
+      "versions": 0
+    },
+    "schema_version": 6,
+    "size_bytes": 7434240
+  },
+  "manifests": 24,
+  "ecosystems": [
+    "docker",
+    "golang",
+    "npm",
+    "pypi"
+  ],
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.04194075,
+      "success": true
+    },
+    "diff": {
+      "elapsed_seconds": 0.017496708,
+      "success": false
+    },
+    "history": {
+      "elapsed_seconds": 0.101965916,
+      "success": true,
+      "output_size": 6739744
+    },
+    "licenses": {
+      "elapsed_seconds": 0.3331495,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.252426125,
+      "success": true
+    },
+    "list": {
+      "elapsed_seconds": 0.023317833,
+      "success": true,
+      "output_size": 171930,
+      "dependency_count": 535
+    },
+    "log": {
+      "elapsed_seconds": 0.023405458,
+      "success": true,
+      "output_size": 182885
+    },
+    "outdated": {
+      "elapsed_seconds": 0.583236125,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.479135625,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.036840333,
+      "success": true
+    },
+    "stale": {
+      "elapsed_seconds": 0.019414791,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.02056775,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "trunk",
+    "changes_by_type": {
+      "added": 1433,
+      "modified": 2285,
+      "removed": 949
+    },
+    "commits_analyzed": 10693,
+    "commits_with_changes": 387,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 809,
+        "name": "dependabot[bot]"
+      },
+      {
+        "count": 763,
+        "name": "Meredith Lancaster"
+      },
+      {
+        "count": 671,
+        "name": "Mislav Marohnić"
+      },
+      {
+        "count": 430,
+        "name": "Babak K. Shandiz"
+      },
+      {
+        "count": 354,
+        "name": "William Martin"
+      },
+      {
+        "count": 331,
+        "name": "Sam Coe"
+      },
+      {
+        "count": 213,
+        "name": "Andy Feller"
+      },
+      {
+        "count": 196,
+        "name": "vilmibm"
+      },
+      {
+        "count": 194,
+        "name": "Corey Johnson"
+      },
+      {
+        "count": 183,
+        "name": "Kynan Ware"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 94,
+        "name": "golang.org/x/sys"
+      },
+      {
+        "count": 83,
+        "name": "golang.org/x/crypto"
+      },
+      {
+        "count": 82,
+        "name": "golang.org/x/net"
+      },
+      {
+        "count": 81,
+        "name": "golang.org/x/text"
+      },
+      {
+        "count": 70,
+        "name": "golang.org/x/term"
+      },
+      {
+        "count": 50,
+        "name": "golang.org/x/sync"
+      },
+      {
+        "count": 46,
+        "name": "google.golang.org/protobuf"
+      },
+      {
+        "count": 46,
+        "name": "google.golang.org/grpc"
+      },
+      {
+        "count": 42,
+        "name": "github.com/stretchr/testify"
+      },
+      {
+        "count": 40,
+        "name": "golang.org/x/mod"
+      }
+    ],
+    "total_changes": 4667
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "repo": "https://github.com/expressjs/express",
+  "name": "express",
+  "tested_at": "2026-01-23T12:35:37Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 0.500762125,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 6120,
+    "branches": 14
+  },
+  "init": {
+    "elapsed_seconds": 0.016649167,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "master",
+    "ecosystems": [
+      "npm"
+    ],
+    "last_analyzed_sha": "a479419b16f5b97eb20f5dbae5848708ff30ce2d",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/express/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 6120,
+      "branches": 1,
+      "commits": 6120,
+      "dependency_changes": 1129,
+      "dependency_snapshots": 404,
+      "manifests": 1,
+      "packages": 52,
+      "versions": 0
+    },
+    "schema_version": 6,
+    "size_bytes": 2891776
+  },
+  "manifests": 1,
+  "ecosystems": [
+    "npm"
+  ],
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.0234195,
+      "success": true
+    },
+    "diff": {
+      "elapsed_seconds": 0.01709375,
+      "success": false
+    },
+    "history": {
+      "elapsed_seconds": 0.031103875,
+      "success": true,
+      "output_size": 502194
+    },
+    "licenses": {
+      "elapsed_seconds": 0.01994675,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.018866458,
+      "success": true
+    },
+    "list": {
+      "elapsed_seconds": 0.017294542,
+      "success": true,
+      "output_size": 11674,
+      "dependency_count": 52
+    },
+    "log": {
+      "elapsed_seconds": 0.019602208,
+      "success": true,
+      "output_size": 21717
+    },
+    "outdated": {
+      "elapsed_seconds": 0.017858417,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.019339459,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.024721291,
+      "success": true
+    },
+    "stale": {
+      "elapsed_seconds": 0.020988458,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.019157584,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "master",
+    "changes_by_type": {
+      "added": 104,
+      "modified": 984,
+      "removed": 41
+    },
+    "commits_analyzed": 6120,
+    "commits_with_changes": 879,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 743,
+        "name": "Douglas Christopher Wilson"
+      },
+      {
+        "count": 98,
+        "name": "TJ Holowaychuk"
+      },
+      {
+        "count": 97,
+        "name": "Tj Holowaychuk"
+      },
+      {
+        "count": 49,
+        "name": "Jonathan Ong"
+      },
+      {
+        "count": 30,
+        "name": "Roman Shtylman"
+      },
+      {
+        "count": 23,
+        "name": "Wes Todd"
+      },
+      {
+        "count": 16,
+        "name": "Dustin Popp"
+      },
+      {
+        "count": 7,
+        "name": "Ulises Gascón"
+      },
+      {
+        "count": 6,
+        "name": "Blake Embrey"
+      },
+      {
+        "count": 5,
+        "name": "AbdelMonaam Aouini"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 143,
+        "name": "connect"
+      },
+      {
+        "count": 63,
+        "name": "send"
+      },
+      {
+        "count": 54,
+        "name": "serve-static"
+      },
+      {
+        "count": 52,
+        "name": "body-parser"
+      },
+      {
+        "count": 46,
+        "name": "qs"
+      },
+      {
+        "count": 44,
+        "name": "mocha"
+      },
+      {
+        "count": 40,
+        "name": "should"
+      },
+      {
+        "count": 35,
+        "name": "express-session"
+      },
+      {
+        "count": 30,
+        "name": "supertest"
+      },
+      {
+        "count": 28,
+        "name": "ejs"
+      }
+    ],
+    "total_changes": 1129
+  }
+}

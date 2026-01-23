@@ -1,18 +1,18 @@
 {
   "repo": "https://github.com/vercel/next.js",
   "name": "next.js",
-  "tested_at": "2026-01-23T10:30:41Z",
+  "tested_at": "2026-01-23T12:38:24Z",
   "git_pkgs_version": "",
   "clone": {
-    "elapsed_seconds": 171.12691325,
+    "elapsed_seconds": 1.757885292,
     "success": true
   },
   "repo_stats": {
-    "commits": 32423,
-    "branches": 2622
+    "commits": 32425,
+    "branches": 2623
   },
   "init": {
-    "elapsed_seconds": 119.900413,
+    "elapsed_seconds": 0.017275292,
     "success": true
   },
   "db_info": {
@@ -30,29 +30,70 @@
       "commits": 32423,
       "dependency_changes": 112650,
       "dependency_snapshots": 700815,
-      "manifests": 877
+      "manifests": 877,
+      "packages": 0,
+      "versions": 0
     },
     "schema_version": 6,
     "size_bytes": 384040960
   },
+  "manifests": 877,
+  "ecosystems": [
+    "cargo",
+    "docker",
+    "npm"
+  ],
   "commands": {
     "blame": {
-      "elapsed_seconds": 0.499830833,
+      "elapsed_seconds": 0.340215666,
       "success": true
     },
+    "diff": {
+      "elapsed_seconds": 0.015966458,
+      "success": false
+    },
     "history": {
-      "elapsed_seconds": 1.123329875,
+      "elapsed_seconds": 1.151407083,
       "success": true,
       "output_size": 90287771
     },
+    "licenses": {
+      "elapsed_seconds": 60.100899375,
+      "success": false
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 60.113135833,
+      "success": false
+    },
     "list": {
-      "elapsed_seconds": 0.241719666,
+      "elapsed_seconds": 0.127052625,
       "success": true,
       "output_size": 5409836,
       "dependency_count": 15039
     },
+    "log": {
+      "elapsed_seconds": 0.021190958,
+      "success": true,
+      "output_size": 83414
+    },
+    "outdated": {
+      "elapsed_seconds": 60.108246334,
+      "success": false
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 60.131687625,
+      "success": false
+    },
+    "search": {
+      "elapsed_seconds": 0.321371959,
+      "success": true
+    },
     "stale": {
-      "elapsed_seconds": 0.018506458,
+      "elapsed_seconds": 0.023709625,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.091610458,
       "success": true
     }
   },

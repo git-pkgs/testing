@@ -1,18 +1,18 @@
 {
   "repo": "https://github.com/rails/rails",
   "name": "rails",
-  "tested_at": "2026-01-23T10:28:12Z",
+  "tested_at": "2026-01-23T12:35:33Z",
   "git_pkgs_version": "",
   "clone": {
-    "elapsed_seconds": 24.568632375,
+    "elapsed_seconds": 0.495641833,
     "success": true
   },
   "repo_stats": {
-    "commits": 97020,
+    "commits": 97022,
     "branches": 77
   },
   "init": {
-    "elapsed_seconds": 16.992332125,
+    "elapsed_seconds": 0.016655333,
     "success": true
   },
   "db_info": {
@@ -31,29 +31,71 @@
       "commits": 97020,
       "dependency_changes": 16042,
       "dependency_snapshots": 24548,
-      "manifests": 77
+      "manifests": 77,
+      "packages": 1685,
+      "versions": 0
     },
     "schema_version": 6,
-    "size_bytes": 71360512
+    "size_bytes": 71725056
   },
+  "manifests": 77,
+  "ecosystems": [
+    "brew",
+    "docker",
+    "gem",
+    "npm"
+  ],
   "commands": {
     "blame": {
-      "elapsed_seconds": 0.137720708,
+      "elapsed_seconds": 0.169848084,
       "success": true
     },
+    "diff": {
+      "elapsed_seconds": 0.017645916,
+      "success": false
+    },
     "history": {
-      "elapsed_seconds": 0.198504958,
+      "elapsed_seconds": 0.215835917,
       "success": true,
       "output_size": 10516453
     },
+    "licenses": {
+      "elapsed_seconds": 1.233945083,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.230659541,
+      "success": true
+    },
     "list": {
-      "elapsed_seconds": 0.030953625,
+      "elapsed_seconds": 0.032767625,
       "success": true,
       "output_size": 813871,
       "dependency_count": 2390
     },
+    "log": {
+      "elapsed_seconds": 0.020358917,
+      "success": true,
+      "output_size": 56963
+    },
+    "outdated": {
+      "elapsed_seconds": 0.235258542,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.147695125,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.127414042,
+      "success": true
+    },
     "stale": {
-      "elapsed_seconds": 0.017763917,
+      "elapsed_seconds": 0.018371917,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.026800792,
       "success": true
     }
   },

@@ -1,0 +1,193 @@
+{
+  "repo": "https://github.com/encode/httpx",
+  "name": "httpx",
+  "tested_at": "2026-01-23T12:37:47Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 0.412521416,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 1522,
+    "branches": 24
+  },
+  "init": {
+    "elapsed_seconds": 0.0174975,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "master",
+    "ecosystems": [
+      "pypi"
+    ],
+    "last_analyzed_sha": "ae1b9f66238f75ced3ced5e4485408435de10768",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/httpx/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 1522,
+      "branches": 1,
+      "commits": 1522,
+      "dependency_changes": 393,
+      "dependency_snapshots": 130,
+      "manifests": 5,
+      "packages": 32,
+      "versions": 0
+    },
+    "schema_version": 6,
+    "size_bytes": 1073152
+  },
+  "manifests": 5,
+  "ecosystems": [
+    "pypi"
+  ],
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.020930542,
+      "success": true
+    },
+    "diff": {
+      "elapsed_seconds": 0.017465,
+      "success": false
+    },
+    "history": {
+      "elapsed_seconds": 0.025492959,
+      "success": true,
+      "output_size": 338495
+    },
+    "licenses": {
+      "elapsed_seconds": 0.019237667,
+      "success": true
+    },
+    "licenses_warm": {
+      "elapsed_seconds": 0.020113875,
+      "success": true
+    },
+    "list": {
+      "elapsed_seconds": 0.021857292,
+      "success": true,
+      "output_size": 9027,
+      "dependency_count": 40
+    },
+    "log": {
+      "elapsed_seconds": 0.0202505,
+      "success": true,
+      "output_size": 44177
+    },
+    "outdated": {
+      "elapsed_seconds": 0.019611083,
+      "success": true
+    },
+    "outdated_warm": {
+      "elapsed_seconds": 0.021243208,
+      "success": true
+    },
+    "search": {
+      "elapsed_seconds": 0.022658792,
+      "success": true
+    },
+    "stale": {
+      "elapsed_seconds": 0.020049791,
+      "success": true
+    },
+    "tree": {
+      "elapsed_seconds": 0.018409375,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "master",
+    "changes_by_type": {
+      "added": 68,
+      "modified": 273,
+      "removed": 52
+    },
+    "commits_analyzed": 1522,
+    "commits_with_changes": 232,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 213,
+        "name": "dependabot[bot]"
+      },
+      {
+        "count": 70,
+        "name": "Tom Christie"
+      },
+      {
+        "count": 37,
+        "name": "Marcelo Trylesinski"
+      },
+      {
+        "count": 23,
+        "name": "Florimond Manca"
+      },
+      {
+        "count": 8,
+        "name": "Ofek Lev"
+      },
+      {
+        "count": 5,
+        "name": "Seth Michael Larson"
+      },
+      {
+        "count": 4,
+        "name": "Kar Petrosyan"
+      },
+      {
+        "count": 3,
+        "name": "Josep Cugat"
+      },
+      {
+        "count": 3,
+        "name": "Joe"
+      },
+      {
+        "count": 2,
+        "name": "cdeler"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 28,
+        "name": "mkdocs-material"
+      },
+      {
+        "count": 26,
+        "name": "cryptography"
+      },
+      {
+        "count": 25,
+        "name": "pytest"
+      },
+      {
+        "count": 21,
+        "name": "uvicorn"
+      },
+      {
+        "count": 18,
+        "name": "ruff"
+      },
+      {
+        "count": 18,
+        "name": "coverage"
+      },
+      {
+        "count": 16,
+        "name": "mypy"
+      },
+      {
+        "count": 15,
+        "name": "httpcore"
+      },
+      {
+        "count": 14,
+        "name": "trio"
+      },
+      {
+        "count": 13,
+        "name": "mkdocs"
+      }
+    ],
+    "total_changes": 393
+  }
+}
