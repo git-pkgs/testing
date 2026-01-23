@@ -1,0 +1,154 @@
+{
+  "repo": "https://github.com/thoughtbot/paperclip",
+  "name": "paperclip",
+  "tested_at": "2026-01-23T10:28:01Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 0.925427042,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 1973,
+    "branches": 11
+  },
+  "init": {
+    "elapsed_seconds": 0.321868875,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "main",
+    "ecosystems": [
+      "gem"
+    ],
+    "last_analyzed_sha": "c769382c9b7078f3d1620b50ec2a70e91ba62ec4",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/paperclip/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 1973,
+      "branches": 1,
+      "commits": 1973,
+      "dependency_changes": 652,
+      "dependency_snapshots": 67,
+      "manifests": 3
+    },
+    "schema_version": 6,
+    "size_bytes": 1196032
+  },
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.02068925,
+      "success": true
+    },
+    "history": {
+      "elapsed_seconds": 0.023244459,
+      "success": true,
+      "output_size": 301752
+    },
+    "list": {
+      "elapsed_seconds": 0.017910708,
+      "success": true,
+      "output_size": 7693,
+      "dependency_count": 34
+    },
+    "stale": {
+      "elapsed_seconds": 0.017149583,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "main",
+    "changes_by_type": {
+      "added": 240,
+      "modified": 215,
+      "removed": 197
+    },
+    "commits_analyzed": 1973,
+    "commits_with_changes": 124,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 290,
+        "name": "Jon Yurek"
+      },
+      {
+        "count": 215,
+        "name": "Prem Sichanugrist"
+      },
+      {
+        "count": 32,
+        "name": "Mike Burns"
+      },
+      {
+        "count": 28,
+        "name": "Gabe Berke-Williams"
+      },
+      {
+        "count": 12,
+        "name": "Tute Costa"
+      },
+      {
+        "count": 10,
+        "name": "geemus"
+      },
+      {
+        "count": 9,
+        "name": "Menno van der Sman"
+      },
+      {
+        "count": 8,
+        "name": "Dave Gynn"
+      },
+      {
+        "count": 6,
+        "name": "soramugi"
+      },
+      {
+        "count": 6,
+        "name": "Trung Lê"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 22,
+        "name": "sqlite3"
+      },
+      {
+        "count": 22,
+        "name": "paperclip"
+      },
+      {
+        "count": 22,
+        "name": "activerecord"
+      },
+      {
+        "count": 21,
+        "name": "cocaine"
+      },
+      {
+        "count": 21,
+        "name": "aws-sdk"
+      },
+      {
+        "count": 20,
+        "name": "activesupport"
+      },
+      {
+        "count": 18,
+        "name": "fog"
+      },
+      {
+        "count": 16,
+        "name": "cucumber"
+      },
+      {
+        "count": 13,
+        "name": "pry"
+      },
+      {
+        "count": 13,
+        "name": "appraisal"
+      }
+    ],
+    "total_changes": 652
+  }
+}

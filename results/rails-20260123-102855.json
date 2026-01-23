@@ -1,0 +1,157 @@
+{
+  "repo": "https://github.com/rails/rails",
+  "name": "rails",
+  "tested_at": "2026-01-23T10:28:12Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 24.568632375,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 97020,
+    "branches": 77
+  },
+  "init": {
+    "elapsed_seconds": 16.992332125,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "main",
+    "ecosystems": [
+      "brew",
+      "docker",
+      "gem",
+      "npm"
+    ],
+    "last_analyzed_sha": "5faaa59f5b45d4c1e1b966dbfb0dded0e1996130",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/rails/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 97020,
+      "branches": 1,
+      "commits": 97020,
+      "dependency_changes": 16042,
+      "dependency_snapshots": 24548,
+      "manifests": 77
+    },
+    "schema_version": 6,
+    "size_bytes": 71360512
+  },
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.137720708,
+      "success": true
+    },
+    "history": {
+      "elapsed_seconds": 0.198504958,
+      "success": true,
+      "output_size": 10516453
+    },
+    "list": {
+      "elapsed_seconds": 0.030953625,
+      "success": true,
+      "output_size": 813871,
+      "dependency_count": 2390
+    },
+    "stale": {
+      "elapsed_seconds": 0.017763917,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "main",
+    "changes_by_type": {
+      "added": 6002,
+      "modified": 4963,
+      "removed": 5077
+    },
+    "commits_analyzed": 97020,
+    "commits_with_changes": 1745,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 2117,
+        "name": "Rafael Mendonça França"
+      },
+      {
+        "count": 1600,
+        "name": "Javan Makhmali"
+      },
+      {
+        "count": 1443,
+        "name": "David Heinemeier Hansson"
+      },
+      {
+        "count": 1111,
+        "name": "Sharang Dashputre"
+      },
+      {
+        "count": 1073,
+        "name": "Hartley McGuire"
+      },
+      {
+        "count": 884,
+        "name": "Genadi Samokovarov"
+      },
+      {
+        "count": 867,
+        "name": "Haroon Ahmed"
+      },
+      {
+        "count": 645,
+        "name": "Lachlan Sylvester"
+      },
+      {
+        "count": 605,
+        "name": "Sean Doyle"
+      },
+      {
+        "count": 596,
+        "name": "Richard Macklin"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 119,
+        "name": "activesupport"
+      },
+      {
+        "count": 112,
+        "name": "arel"
+      },
+      {
+        "count": 102,
+        "name": "rack"
+      },
+      {
+        "count": 97,
+        "name": "i18n"
+      },
+      {
+        "count": 93,
+        "name": "rails"
+      },
+      {
+        "count": 83,
+        "name": "mail"
+      },
+      {
+        "count": 83,
+        "name": "actionpack"
+      },
+      {
+        "count": 79,
+        "name": "minitest"
+      },
+      {
+        "count": 76,
+        "name": "activemodel"
+      },
+      {
+        "count": 71,
+        "name": "nokogiri"
+      }
+    ],
+    "total_changes": 16042
+  }
+}

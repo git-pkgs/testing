@@ -1,0 +1,156 @@
+{
+  "repo": "https://github.com/vercel/next.js",
+  "name": "next.js",
+  "tested_at": "2026-01-23T10:30:41Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 171.12691325,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 32423,
+    "branches": 2622
+  },
+  "init": {
+    "elapsed_seconds": 119.900413,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "canary",
+    "ecosystems": [
+      "cargo",
+      "docker",
+      "npm"
+    ],
+    "last_analyzed_sha": "ea81858027f401aefe5adc5b182a7c80f6748657",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/next.js/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 32423,
+      "branches": 1,
+      "commits": 32423,
+      "dependency_changes": 112650,
+      "dependency_snapshots": 700815,
+      "manifests": 877
+    },
+    "schema_version": 6,
+    "size_bytes": 384040960
+  },
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.499830833,
+      "success": true
+    },
+    "history": {
+      "elapsed_seconds": 1.123329875,
+      "success": true,
+      "output_size": 90287771
+    },
+    "list": {
+      "elapsed_seconds": 0.241719666,
+      "success": true,
+      "output_size": 5409836,
+      "dependency_count": 15039
+    },
+    "stale": {
+      "elapsed_seconds": 0.018506458,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "canary",
+    "changes_by_type": {
+      "added": 27062,
+      "modified": 66769,
+      "removed": 18819
+    },
+    "commits_analyzed": 32423,
+    "commits_with_changes": 8461,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 13756,
+        "name": "JJ Kasper"
+      },
+      {
+        "count": 12161,
+        "name": "vercel-release-bot"
+      },
+      {
+        "count": 11439,
+        "name": "Tim Neutkens"
+      },
+      {
+        "count": 9460,
+        "name": "Donny/강동윤"
+      },
+      {
+        "count": 4915,
+        "name": "nextjs-bot"
+      },
+      {
+        "count": 4891,
+        "name": "Tobias Koppers"
+      },
+      {
+        "count": 4607,
+        "name": "LongYinan"
+      },
+      {
+        "count": 3206,
+        "name": "Joe Haddad"
+      },
+      {
+        "count": 3164,
+        "name": "Sam Ko"
+      },
+      {
+        "count": 2446,
+        "name": "hrmny"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 4455,
+        "name": "react"
+      },
+      {
+        "count": 3818,
+        "name": "react-dom"
+      },
+      {
+        "count": 2911,
+        "name": "@next/polyfill-nomodule"
+      },
+      {
+        "count": 2844,
+        "name": "@next/react-refresh-utils"
+      },
+      {
+        "count": 2654,
+        "name": "@next/env"
+      },
+      {
+        "count": 2632,
+        "name": "@next/polyfill-module"
+      },
+      {
+        "count": 2454,
+        "name": "@next/eslint-plugin-next"
+      },
+      {
+        "count": 2139,
+        "name": "@next/swc"
+      },
+      {
+        "count": 1683,
+        "name": "@next/react-dev-overlay"
+      },
+      {
+        "count": 1506,
+        "name": "webpack-sources"
+      }
+    ],
+    "total_changes": 112650
+  }
+}

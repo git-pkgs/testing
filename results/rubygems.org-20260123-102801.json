@@ -1,0 +1,159 @@
+{
+  "repo": "https://github.com/rubygems/rubygems.org",
+  "name": "rubygems.org",
+  "tested_at": "2026-01-23T10:27:52Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 4.760419,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 11966,
+    "branches": 106
+  },
+  "init": {
+    "elapsed_seconds": 3.7462016670000002,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "master",
+    "ecosystems": [
+      "docker",
+      "gem",
+      "pypi"
+    ],
+    "last_analyzed_sha": "e50afaacb66a4de43986023b5a3a23ea6b32a198",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/rubygems.org/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 11966,
+      "branches": 1,
+      "commits": 11966,
+      "dependency_changes": 8933,
+      "dependency_snapshots": 10166,
+      "manifests": 9
+    },
+    "schema_version": 6,
+    "size_bytes": 11743232
+  },
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.03960925,
+      "success": true
+    },
+    "history": {
+      "elapsed_seconds": 0.099971125,
+      "success": true,
+      "output_size": 6025177
+    },
+    "list": {
+      "elapsed_seconds": 0.020599167,
+      "success": true,
+      "output_size": 139227,
+      "dependency_count": 473
+    },
+    "stale": {
+      "elapsed_seconds": 0.039326625,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "master",
+    "changes_by_type": {
+      "added": 984,
+      "modified": 7392,
+      "removed": 557
+    },
+    "commits_analyzed": 11966,
+    "commits_with_changes": 3693,
+    "current_deps": 473,
+    "deps_by_ecosystem": {
+      "docker": 7,
+      "gem": 466
+    },
+    "top_authors": [
+      {
+        "count": 3680,
+        "name": "dependabot[bot]"
+      },
+      {
+        "count": 2120,
+        "name": "Erik Michaels-Ober"
+      },
+      {
+        "count": 839,
+        "name": "Aditya Prakash"
+      },
+      {
+        "count": 507,
+        "name": "Nick Quaranto"
+      },
+      {
+        "count": 434,
+        "name": "Samuel Giddins"
+      },
+      {
+        "count": 225,
+        "name": "Arthur Neves"
+      },
+      {
+        "count": 181,
+        "name": "David Radcliffe"
+      },
+      {
+        "count": 157,
+        "name": "dependabot-preview[bot]"
+      },
+      {
+        "count": 113,
+        "name": "Josef Šimánek"
+      },
+      {
+        "count": 93,
+        "name": "Colby Swandale"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 213,
+        "name": "aws-sdk-core"
+      },
+      {
+        "count": 186,
+        "name": "aws-sdk-s3"
+      },
+      {
+        "count": 156,
+        "name": "rails"
+      },
+      {
+        "count": 145,
+        "name": "aws-partitions"
+      },
+      {
+        "count": 133,
+        "name": "newrelic_rpm"
+      },
+      {
+        "count": 113,
+        "name": "activesupport"
+      },
+      {
+        "count": 110,
+        "name": "selenium-webdriver"
+      },
+      {
+        "count": 107,
+        "name": "aws-sdk-sqs"
+      },
+      {
+        "count": 107,
+        "name": "activerecord"
+      },
+      {
+        "count": 107,
+        "name": "actionpack"
+      }
+    ],
+    "total_changes": 8933
+  }
+}

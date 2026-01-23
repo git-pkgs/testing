@@ -1,0 +1,158 @@
+{
+  "repo": "https://github.com/microsoft/vscode",
+  "name": "vscode",
+  "tested_at": "2026-01-23T10:35:37Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 83.139482375,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 144371,
+    "branches": 2693
+  },
+  "init": {
+    "elapsed_seconds": 62.350368708,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "main",
+    "ecosystems": [
+      "cargo",
+      "docker",
+      "npm",
+      "nuget",
+      "vcpkg"
+    ],
+    "last_analyzed_sha": "5265b9f10855b00898f11b4303f37992edd41a83",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/vscode/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 144371,
+      "branches": 1,
+      "commits": 144371,
+      "dependency_changes": 75682,
+      "dependency_snapshots": 226661,
+      "manifests": 281
+    },
+    "schema_version": 6,
+    "size_bytes": 219639808
+  },
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.351032333,
+      "success": true
+    },
+    "history": {
+      "elapsed_seconds": 0.8810935,
+      "success": true,
+      "output_size": 62777082
+    },
+    "list": {
+      "elapsed_seconds": 0.055520042,
+      "success": true,
+      "output_size": 2528050,
+      "dependency_count": 7005
+    },
+    "stale": {
+      "elapsed_seconds": 0.022446708,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "main",
+    "changes_by_type": {
+      "added": 29886,
+      "modified": 23252,
+      "removed": 22544
+    },
+    "commits_analyzed": 144371,
+    "commits_with_changes": 4198,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 7527,
+        "name": "Robo"
+      },
+      {
+        "count": 7369,
+        "name": "Matt Bierner"
+      },
+      {
+        "count": 6588,
+        "name": "Daniel Imms"
+      },
+      {
+        "count": 4919,
+        "name": "Joao Moreno"
+      },
+      {
+        "count": 4607,
+        "name": "Martin Aeschlimann"
+      },
+      {
+        "count": 3670,
+        "name": "Logan Ramos"
+      },
+      {
+        "count": 3648,
+        "name": "Benjamin Pasero"
+      },
+      {
+        "count": 3343,
+        "name": "Alexandru Dima"
+      },
+      {
+        "count": 3285,
+        "name": "Alex Dima"
+      },
+      {
+        "count": 3003,
+        "name": "Ryan Adolf"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 1227,
+        "name": "xterm"
+      },
+      {
+        "count": 1100,
+        "name": "typescript"
+      },
+      {
+        "count": 1090,
+        "name": "@types/node"
+      },
+      {
+        "count": 652,
+        "name": "xterm-addon-webgl"
+      },
+      {
+        "count": 601,
+        "name": "vscode-css-languageservice"
+      },
+      {
+        "count": 584,
+        "name": "vscode-nls"
+      },
+      {
+        "count": 498,
+        "name": "xterm-headless"
+      },
+      {
+        "count": 496,
+        "name": "vscode-extension-telemetry"
+      },
+      {
+        "count": 482,
+        "name": "xterm-addon-search"
+      },
+      {
+        "count": 388,
+        "name": "electron"
+      }
+    ],
+    "total_changes": 75682
+  }
+}

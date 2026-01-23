@@ -1,0 +1,156 @@
+{
+  "repo": "https://github.com/BurntSushi/ripgrep",
+  "name": "ripgrep",
+  "tested_at": "2026-01-23T10:30:35Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 0.905969333,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 2206,
+    "branches": 16
+  },
+  "init": {
+    "elapsed_seconds": 0.645366041,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "master",
+    "ecosystems": [
+      "arch",
+      "cargo",
+      "docker"
+    ],
+    "last_analyzed_sha": "0a88cccd5188074de96f54a4b6b44a63971ac157",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/ripgrep/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 2206,
+      "branches": 1,
+      "commits": 2206,
+      "dependency_changes": 1891,
+      "dependency_snapshots": 522,
+      "manifests": 32
+    },
+    "schema_version": 6,
+    "size_bytes": 2269184
+  },
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.023551375,
+      "success": true
+    },
+    "history": {
+      "elapsed_seconds": 0.03804325,
+      "success": true,
+      "output_size": 1236227
+    },
+    "list": {
+      "elapsed_seconds": 0.018819583,
+      "success": true,
+      "output_size": 51597,
+      "dependency_count": 172
+    },
+    "stale": {
+      "elapsed_seconds": 0.017437917,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "master",
+    "changes_by_type": {
+      "added": 341,
+      "modified": 1332,
+      "removed": 218
+    },
+    "commits_analyzed": 2206,
+    "commits_with_changes": 330,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 1787,
+        "name": "Andrew Gallant"
+      },
+      {
+        "count": 23,
+        "name": "William Johnson"
+      },
+      {
+        "count": 12,
+        "name": "Igor Gnatenko"
+      },
+      {
+        "count": 11,
+        "name": "Lucas Trzesniewski"
+      },
+      {
+        "count": 11,
+        "name": "Bastien Orivel"
+      },
+      {
+        "count": 5,
+        "name": "Tavian Barnes"
+      },
+      {
+        "count": 4,
+        "name": "llogiq"
+      },
+      {
+        "count": 4,
+        "name": "Aleksey Vasilenko"
+      },
+      {
+        "count": 3,
+        "name": "Martin Nordholts"
+      },
+      {
+        "count": 3,
+        "name": "Henri Sivonen"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 126,
+        "name": "regex"
+      },
+      {
+        "count": 66,
+        "name": "regex-syntax"
+      },
+      {
+        "count": 59,
+        "name": "memchr"
+      },
+      {
+        "count": 59,
+        "name": "bstr"
+      },
+      {
+        "count": 58,
+        "name": "libc"
+      },
+      {
+        "count": 52,
+        "name": "serde"
+      },
+      {
+        "count": 51,
+        "name": "serde_derive"
+      },
+      {
+        "count": 51,
+        "name": "log"
+      },
+      {
+        "count": 45,
+        "name": "syn"
+      },
+      {
+        "count": 43,
+        "name": "walkdir"
+      }
+    ],
+    "total_changes": 1891
+  }
+}

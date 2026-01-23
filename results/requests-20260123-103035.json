@@ -1,0 +1,154 @@
+{
+  "repo": "https://github.com/psf/requests",
+  "name": "requests",
+  "tested_at": "2026-01-23T10:30:33Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 1.2975936670000001,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 6379,
+    "branches": 17
+  },
+  "init": {
+    "elapsed_seconds": 0.843018875,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "main",
+    "ecosystems": [
+      "pypi"
+    ],
+    "last_analyzed_sha": "70298332899f25826e35e42f8d83425124f755a5",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/requests/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 6379,
+      "branches": 1,
+      "commits": 6379,
+      "dependency_changes": 1089,
+      "dependency_snapshots": 8,
+      "manifests": 7
+    },
+    "schema_version": 6,
+    "size_bytes": 2998272
+  },
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.024474459,
+      "success": true
+    },
+    "history": {
+      "elapsed_seconds": 0.029391375,
+      "success": true,
+      "output_size": 447057
+    },
+    "list": {
+      "elapsed_seconds": 0.0184125,
+      "success": true,
+      "output_size": 1856,
+      "dependency_count": 8
+    },
+    "stale": {
+      "elapsed_seconds": 0.017320583,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "main",
+    "changes_by_type": {
+      "added": 405,
+      "modified": 287,
+      "removed": 397
+    },
+    "commits_analyzed": 6379,
+    "commits_with_changes": 94,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 633,
+        "name": "Kenneth Reitz"
+      },
+      {
+        "count": 320,
+        "name": "Nate Prewitt"
+      },
+      {
+        "count": 101,
+        "name": "Seth Michael Larson"
+      },
+      {
+        "count": 10,
+        "name": "Cory Benfield"
+      },
+      {
+        "count": 8,
+        "name": "mattkohl"
+      },
+      {
+        "count": 4,
+        "name": "Thomas Grainger"
+      },
+      {
+        "count": 2,
+        "name": "Quentin Pradet"
+      },
+      {
+        "count": 1,
+        "name": "tzickel"
+      },
+      {
+        "count": 1,
+        "name": "TAHRI Ahmed R"
+      },
+      {
+        "count": 1,
+        "name": "Susan Tan"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 44,
+        "name": "pytest"
+      },
+      {
+        "count": 39,
+        "name": "pytest-cov"
+      },
+      {
+        "count": 38,
+        "name": "pytest-mock"
+      },
+      {
+        "count": 38,
+        "name": "pytest-httpbin"
+      },
+      {
+        "count": 27,
+        "name": "codecov"
+      },
+      {
+        "count": 27,
+        "name": "alabaster"
+      },
+      {
+        "count": 25,
+        "name": "httpbin"
+      },
+      {
+        "count": 23,
+        "name": "requests"
+      },
+      {
+        "count": 23,
+        "name": "Sphinx"
+      },
+      {
+        "count": 22,
+        "name": "PySocks"
+      }
+    ],
+    "total_changes": 1089
+  }
+}

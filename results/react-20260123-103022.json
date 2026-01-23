@@ -1,0 +1,157 @@
+{
+  "repo": "https://github.com/facebook/react",
+  "name": "react",
+  "tested_at": "2026-01-23T10:28:55Z",
+  "git_pkgs_version": "",
+  "clone": {
+    "elapsed_seconds": 65.58048675,
+    "success": true
+  },
+  "repo_stats": {
+    "commits": 21291,
+    "branches": 754
+  },
+  "init": {
+    "elapsed_seconds": 18.902843208,
+    "success": true
+  },
+  "db_info": {
+    "branch_name": "main",
+    "ecosystems": [
+      "bower",
+      "cargo",
+      "gem",
+      "npm"
+    ],
+    "last_analyzed_sha": "2d8e7f1ce358e8cddc3aae862007269b6bac04ba",
+    "path": "/Users/andrew/code/git-pkgs/testing/repos/react/.git/pkgs.sqlite3",
+    "row_counts": {
+      "branch_commits": 21291,
+      "branches": 1,
+      "commits": 21291,
+      "dependency_changes": 66377,
+      "dependency_snapshots": 233455,
+      "manifests": 314
+    },
+    "schema_version": 6,
+    "size_bytes": 198680576
+  },
+  "commands": {
+    "blame": {
+      "elapsed_seconds": 0.443410875,
+      "success": true
+    },
+    "history": {
+      "elapsed_seconds": 0.820153125,
+      "success": true,
+      "output_size": 74063834
+    },
+    "list": {
+      "elapsed_seconds": 0.205967333,
+      "success": true,
+      "output_size": 12277599,
+      "dependency_count": 27844
+    },
+    "stale": {
+      "elapsed_seconds": 0.019767167,
+      "success": true
+    }
+  },
+  "stats": {
+    "branch": "main",
+    "changes_by_type": {
+      "added": 37310,
+      "modified": 10534,
+      "removed": 18533
+    },
+    "commits_analyzed": 21291,
+    "commits_with_changes": 1327,
+    "current_deps": 0,
+    "deps_by_ecosystem": {},
+    "top_authors": [
+      {
+        "count": 13985,
+        "name": "Brian Vaughn"
+      },
+      {
+        "count": 11971,
+        "name": "Dan Abramov"
+      },
+      {
+        "count": 9550,
+        "name": "Sebastian Markbåge"
+      },
+      {
+        "count": 3781,
+        "name": "Joe Savona"
+      },
+      {
+        "count": 2760,
+        "name": "lauren"
+      },
+      {
+        "count": 2311,
+        "name": "Xuan Huang (黄玄)"
+      },
+      {
+        "count": 2210,
+        "name": "Andrew Clark"
+      },
+      {
+        "count": 1963,
+        "name": "Lauren Tan"
+      },
+      {
+        "count": 1946,
+        "name": "Frank Calise"
+      },
+      {
+        "count": 1370,
+        "name": "Dominic Gannaway"
+      }
+    ],
+    "top_changed": [
+      {
+        "count": 612,
+        "name": "react"
+      },
+      {
+        "count": 273,
+        "name": "react-dom"
+      },
+      {
+        "count": 253,
+        "name": "scheduler"
+      },
+      {
+        "count": 185,
+        "name": "flow-bin"
+      },
+      {
+        "count": 161,
+        "name": "debug"
+      },
+      {
+        "count": 153,
+        "name": "object-assign"
+      },
+      {
+        "count": 149,
+        "name": "semver"
+      },
+      {
+        "count": 147,
+        "name": "ms"
+      },
+      {
+        "count": 145,
+        "name": "eslint"
+      },
+      {
+        "count": 126,
+        "name": "prettier"
+      }
+    ],
+    "total_changes": 66377
+  }
+}
