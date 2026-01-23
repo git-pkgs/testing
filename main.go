@@ -366,6 +366,16 @@ func testRepo(repoURL string, cacheDir string, forceClone bool) TestResult {
 		TimedOut: outdatedWarmRes.TimedOut,
 	}
 
+	// Re-fetch db info to get packages/versions counts after enrichment
+	fmt.Println("  Getting final db info...")
+	finalInfoRes := runCommandTimeout("git", []string{"pkgs", "info", "--format=json"}, repoPath, timeouts["command"])
+	if finalInfoRes.ExitCode == 0 {
+		var info map[string]any
+		if err := json.Unmarshal([]byte(finalInfoRes.Stdout), &info); err == nil {
+			result.DBInfo = info
+		}
+	}
+
 	return result
 }
 
@@ -532,6 +542,30 @@ func getChangeCount(result LoadedResult) int {
 	return 0
 }
 
+func getPackageCount(result LoadedResult) int {
+	if result.DBInfo == nil {
+		return 0
+	}
+	if rowCounts, ok := result.DBInfo["row_counts"].(map[string]any); ok {
+		if v, ok := rowCounts["packages"].(float64); ok {
+			return int(v)
+		}
+	}
+	return 0
+}
+
+func getVersionCount(result LoadedResult) int {
+	if result.DBInfo == nil {
+		return 0
+	}
+	if rowCounts, ok := result.DBInfo["row_counts"].(map[string]any); ok {
+		if v, ok := rowCounts["versions"].(float64); ok {
+			return int(v)
+		}
+	}
+	return 0
+}
+
 func loadResults(dir string) ([]LoadedResult, error) {
 	pattern := filepath.Join(dir, "*.json")
 	files, err := filepath.Glob(pattern)
@@ -613,7 +647,7 @@ func getCmdElapsed(result LoadedResult, name string) float64 {
 }
 
 func printTable(results []LoadedResult) {
-	headers := []string{"Repo", "Commits", "Init", "DB Size", "Manifests", "Ecosystems", "Deps", "Changes", "list", "blame", "history", "stale", "log", "tree", "licenses", "licenses_warm", "search", "diff", "outdated", "outdated_warm"}
+	headers := []string{"Repo", "Commits", "Init", "DB Size", "Manifests", "Ecosystems", "Deps", "Changes", "Pkgs", "Versions", "list", "blame", "history", "stale", "log", "tree", "licenses", "licenses_warm", "search", "diff", "outdated", "outdated_warm"}
 
 	var rows [][]string
 	for _, r := range results {
@@ -647,6 +681,8 @@ func printTable(results []LoadedResult) {
 			ecosystems,
 			formatNumber(getDepCount(r)),
 			formatNumber(getChangeCount(r)),
+			formatNumber(getPackageCount(r)),
+			formatNumber(getVersionCount(r)),
 			cmdResult(r, "list"),
 			cmdResult(r, "blame"),
 			cmdResult(r, "history"),
@@ -916,5 +952,8 @@ func main() {
 		fmt.Println()
 	}
 
-	fmt.Printf("Done. Results saved to %s/\n", resultsDir)
+	fmt.Printf("Done. Results saved to %s/\n\n", resultsDir)
+
+	// Show summary
+	runResults(resultsDir, []string{})
 }
