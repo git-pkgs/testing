@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/csv"
 	"encoding/json"
 	"fmt"
 	"os"
@@ -320,14 +321,68 @@ func printMarkdown(results []TestResult) {
 	}
 }
 
+func printCSV(results []TestResult, w *csv.Writer) {
+	headers := []string{"repo", "commits", "init_seconds", "db_bytes", "deps", "changes", "list_seconds", "blame_seconds", "history_seconds"}
+	w.Write(headers)
+
+	for _, r := range results {
+		commits := 0
+		if r.RepoStats != nil {
+			commits = r.RepoStats.Commits
+		}
+
+		initSeconds := 0.0
+		if r.Init != nil && r.Init.Success {
+			initSeconds = r.Init.Elapsed
+		}
+
+		row := []string{
+			r.Name,
+			fmt.Sprintf("%d", commits),
+			fmt.Sprintf("%.3f", initSeconds),
+			fmt.Sprintf("%d", getDBSize(r)),
+			fmt.Sprintf("%d", getDepCount(r)),
+			fmt.Sprintf("%d", getChangeCount(r)),
+			fmt.Sprintf("%.3f", getCmdElapsed(r, "list")),
+			fmt.Sprintf("%.3f", getCmdElapsed(r, "blame")),
+			fmt.Sprintf("%.3f", getCmdElapsed(r, "history")),
+		}
+		w.Write(row)
+	}
+	w.Flush()
+}
+
+func getCmdElapsed(result TestResult, name string) float64 {
+	if result.Commands == nil {
+		return 0
+	}
+	cmdAny, ok := result.Commands[name]
+	if !ok {
+		return 0
+	}
+	cmd, ok := cmdAny.(map[string]any)
+	if !ok {
+		return 0
+	}
+	if elapsed, ok := cmd["elapsed_seconds"].(float64); ok {
+		return elapsed
+	}
+	return 0
+}
+
 func main() {
 	execDir, _ := os.Getwd()
 	resultsDir := filepath.Join(execDir, "results")
 
 	markdown := false
-	for _, arg := range os.Args[1:] {
+	csvOutput := ""
+	for i, arg := range os.Args[1:] {
 		if arg == "--markdown" || arg == "-m" {
 			markdown = true
+		} else if arg == "--csv" && i+2 < len(os.Args) {
+			csvOutput = os.Args[i+2]
+		} else if strings.HasPrefix(arg, "--csv=") {
+			csvOutput = strings.TrimPrefix(arg, "--csv=")
 		}
 	}
 
@@ -335,6 +390,20 @@ func main() {
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "%v\n", err)
 		os.Exit(1)
+	}
+
+	// CSV output to file
+	if csvOutput != "" {
+		f, err := os.Create(csvOutput)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Failed to create CSV file: %v\n", err)
+			os.Exit(1)
+		}
+		defer f.Close()
+		w := csv.NewWriter(f)
+		printCSV(results, w)
+		fmt.Printf("Wrote %d results to %s\n", len(results), csvOutput)
+		return
 	}
 
 	fmt.Println("git-pkgs Test Results")
