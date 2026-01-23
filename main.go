@@ -318,6 +318,41 @@ func loadRepos(path string) ([]string, error) {
 	return repos, scanner.Err()
 }
 
+func cleanUncommittedResults(resultsDir string) {
+	// Check if results dir exists
+	if _, err := os.Stat(resultsDir); os.IsNotExist(err) {
+		return
+	}
+
+	// Get list of committed files in results dir
+	cmd := exec.Command("git", "ls-files", resultsDir)
+	output, _ := cmd.Output()
+	committed := make(map[string]bool)
+	for _, line := range strings.Split(string(output), "\n") {
+		if line != "" {
+			committed[line] = true
+		}
+	}
+
+	// Remove any .json files that aren't committed
+	entries, err := os.ReadDir(resultsDir)
+	if err != nil {
+		return
+	}
+
+	for _, entry := range entries {
+		if entry.IsDir() || !strings.HasSuffix(entry.Name(), ".json") {
+			continue
+		}
+		fullPath := filepath.Join(resultsDir, entry.Name())
+		if !committed[fullPath] {
+			if err := os.Remove(fullPath); err == nil {
+				fmt.Printf("Cleaned up: %s\n", entry.Name())
+			}
+		}
+	}
+}
+
 func main() {
 	execDir, _ := os.Getwd()
 	resultsDir := filepath.Join(execDir, "results")
@@ -326,10 +361,13 @@ func main() {
 
 	// Parse flags
 	forceClone := false
+	skipClean := false
 	var repos []string
 	for _, arg := range os.Args[1:] {
 		if arg == "--fresh" || arg == "-f" {
 			forceClone = true
+		} else if arg == "--no-clean" {
+			skipClean = true
 		} else if !strings.HasPrefix(arg, "-") {
 			repos = append(repos, arg)
 		}
@@ -353,6 +391,11 @@ func main() {
 	if err := os.MkdirAll(cacheDir, 0755); err != nil {
 		fmt.Fprintf(os.Stderr, "Failed to create cache dir: %v\n", err)
 		os.Exit(1)
+	}
+
+	// Clean uncommitted results
+	if !skipClean {
+		cleanUncommittedResults(resultsDir)
 	}
 
 	fmt.Printf("Testing %d repo(s)...\n", len(repos))
