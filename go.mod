@@ -1,5 +1,5 @@
 module github.com/git-pkgs/testing
 
-go 1.25.5
+go 1.26
 
-toolchain go1.26.6
+toolchain go1.26.7
